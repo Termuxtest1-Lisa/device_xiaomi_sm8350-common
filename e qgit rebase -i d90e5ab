@@ -1,0 +1,1481 @@
+[33mc937a37[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m16[m[33m, [m[1;31morigin/16[m[33m)[m sm8350-common: Disable the usage of `thumbnail_block_model`
+[33maf1c5df[m sm8350-common: Enable VoNR Calls support
+[33m3722c66[m sm8350-common: parts: add simple GPU Manager
+[33m749a6a8[m sm8350-common: parts: add simple Kernel Manager
+[33mbd40559[m sm8350-common: parts: add Kamis Stuff and shift some settings there
+[33m619a04c[m sm8350-common: parts: add core control
+[33md90e5ab[m sm8350-common: sepolicy: Remove duplicate labels
+[33m69e0fa7[m sm8350-common: Migrate to QTI USB Gadget AIDL HAL
+[33m122875b[m sm8350-common: Pull appropriate USB props from vendor_product.mk
+[33m6e2f127[m sm8350-common: Set sys.usb.mtp.batchcancel for MTP over FFS
+[33m0b865b6[m sm8350-common: Configure USB Diag over FFS
+[33m2394349[m sm8350-common: Pick up USB configurations from QCOM
+[33m637fbc7[m sm8350-common: Fix battery and USB OTG detection in recovery mode
+[33mafa4cc2[m haydn: Add libaudioclient_shim for libwfdservice
+[33m4b99c38[m Revert "sm8350-common: parts: Add High Touch Polling Rate"
+[33m5222da3[m sm8350-common: Disable redir_party_num
+[33m3c42869[m sm8350-common: Import qcril_database and generate the db at build time
+[33mdd2e860[m sm8350-common: Push screen recorder max FPS to 90FPS
+[33mcf94190[m sm8350-common: Set USB config to mtp,adb by default
+[33m4548d6d[m sm8350-common: parts: Move GameBar to system settings and add Icon as well
+[33mda2feab[m sm8350-common: label bypass charging
+[33m0ea46ea[m sm8350-common: parts: Introduce GameBar v4.0
+[33mc56ac36[m sm8350-common: Apply dex2oat optimizations
+[33mf3caa69[m sm8350-common: sepolicy: Label miui properties
+[33m27aeeeb[m sm8350-common: sepolicy: Address property denials
+[33m1142253[m sm8350-common: sepolicy: Label Fs-verity properties
+[33m95b963f[m sm8350-common: sepolicy: Resolve qemu_hw_prop denial
+[33m59b6463[m sm8350-common: sepolicy: Label aware properties
+[33m65a647a[m sm8350-common: sepolicy: Label ro.hardware.chipname property
+[33m898071a[m sm8350-common: sepolicy: Add camera labels
+[33m86a279c[m sm8350-common: Set libcameraservice ext lib via soong config
+[33meed996d[m sm8350-common: sepolicy: allow rild read default_prop
+[33mddbc61b[m sm8350-common: wifi: import missing wpa_supplicant configs from stock
+[33m345dde5[m sm8350-common: overlay: Add Wifi-Only option to VoWIFI preferences
+[33md9651ea[m sm8350-common: overlay: Allow VoLTE and VoWiFi by default
+[33ma2821b7[m sm8350-common: overlay: Disable world_mode_enabled_bool
+[33m785b16a[m sm8350-common: overlay: Do not show satellite category for Verizon
+[33mf298b6a[m sm8350-common: overlay: Enable VoNR on Jio 5G
+[33mebb5af8[m sm8350-common: wifioverlay: Allow Enterprise network configuration
+[33m5fe4139[m sm8350-common: overlay: Configure Wifi TCP buffer sizes
+[33m26bf966[m sm8350-common: overlay: Disable global mode and CDMA choices
+[33m1867cde[m sm8350-common: overlay: Update CarrierConfig from haydn V18.0.12.0.UKKCNXM
+[33m96b7426[m sm8350-common: Enable UFFD GC
+[33m66d5b62[m Revert "sm8350-common: set OVERRIDE_ENABLE_UFFD_GC"
+[33m41c396c[m sm8350-common: wifi: Enable Optimized Power Management
+[33m1ea3c03[m sm8350-common: rootdir: disable adsprpcd
+[33m0380451[m sm8350-common: disable_gl_backpressure
+[33m4c7702b[m sm8350-common: props: decrease debug.hwui.target_cpu_time_percent
+[33m60d6161[m sm8350-common: Implement torch light control
+[33m0ab3fd3[m sm8350-common: Move libperfmgr mode extension lib to select()
+[33m3d11528[m sm8350-common: overlay: Declare 6ghz wifi support
+[33mf6272b3[m sm8350-common: rootdir: Allow all filesystems for USB-OTG
+[33mca18c5a[m sm8350-common: overlay: Don't pin camera app in memory
+[33m972d8b2[m sm8350-common: Disable continuous transaction tracing on all build types
+[33mf2bfaf2[m sm8350-common: rootdir: Disable multiple kswapd threads
+[33md434864[m sm8350-common: kang display stack from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+[33m7563757[m sm8350-common: rootdir: init: drop input boost freq configuration
+[33m97bd89e[m sm8350-common: Enable usage of dex2oat64
+[33m32cd3a3[m sm8350-common: Move citsensorservice to background cpuset
+[33m87b35c4[m sm8350-common: Switch to dot product CPU variant
+[33mfd05017[m sm8350-common: Optimize native executables for Cortex-A76 CPU
+[33m2af7982[m sm8350-common: Force device to treat 170M as sRGB in SF
+[33m328ca72[m sm8350-common: hwc: Disable SF composition prediction model.
+[33m2783e62[m sm8350-common: wifi: Disable WLAN Firmware loggings
+[33ma8db767[m sm8350-common: init: Move audio-app cpuset to 1-2
+[33mcc0a020[m sm8350-common: Use android.hardware.power-ndk_shared instead
+[33mfca9d87[m sm8350-common: cleanup duplicate props
+[33m9e6ccf1[m sm8350-common: sepolicy: Address Pixel power HAL denials
+[33mce16adf[m sm8350-common: powerhint: Tune scheduler parameters
+[33m34a006d[m sm8350-common: rootdir: Fix PowerHAL nodes
+[33me0ffd8e[m sm8350-common: powerhint: Set screen-off schedutil ratelimits
+[33m98a3dba[m sm8350-common: powerhint: Drop Display wakeup node
+[33m0a409d8[m sm8350-commons:add right namespaces to power-mode
+[33mbc5b84f[m sm8350-common: Provide a static lib for power mode extension
+[33me240cd5[m sm8350-common: Use common libqti-perfd-client and power-libperfmgr
+[33mf95ccbb[m sm8350-common: init: Enable powerhint parsing after boot completion
+[33mf592152[m sm8350-common: powerhint: Reduce boosts further
+[33ma47f335[m sm8350-common: powerhint: Bump up interaction boost
+[33m7640252[m sm8350-common: Separate powerhint for lahaina and yupik
+[33m52a57e5[m sm8350-common: Fine-tune and cleanup powerhint
+[33m5498409[m sm8350-common: powerhint: Setup uclamp boosting
+[33m33f0a4d[m sm8350-common: powerhint: Adapt and tune for lahaina
+[33m4fe97d2[m sm8350-common: powerhint: Drop PM QoS boosting
+[33md8a3106[m sm8350-common: powerhint: Remove audio hints
+[33ma1033e5[m sm8350-common: powerhint: Decrease launch boost to 3sec
+[33m912dbfd[m sm8350-common: powerhint: Remove Google-specific camera hints
+[33mbb0718f[m sm8350-common: powerhint: Remove hints for Adaptive Battery CPU Throttling
+[33me09488e[m sm8350-common: powerhint: Drop EnergyAware node
+[33m278ab65[m sm8350-common: powerhint: Don't mess with UFS clkgate
+[33m1bd4ae5[m sm8350-common: Import powerhint.json from coral
+[33meb74b7a[m sm8350-common: Disable vendor.audio.feature.kpi_optimize.enable
+[33m4b040bc[m sm8350-common: libqti-perfd-client: Move to C
+[33m9769171[m sm8350-common: libqti-perfd-client: return a dummy value
+[33mf37243e[m sm8350-common: create dummy libqti-perfd-client
+[33m1a8dee8[m sm8350-common: Drop QTI perfd stack
+[33m0f7aab5[m sm8350-common: Extend audio offload buffer size to 256kb
+[33m713972c[m sm8350-common: Use armv8-2a for 2nd arch variant
+[33m9ae49fc[m sm8350-common: Disable default framerate for games
+[33m1b1e243[m sm8350-common: sepolicy: Add Leica Camera sepolicy
+[33m0d2ea36[m  sm8350-common: use BUILD_BROKEN_DUP_RULES
+[33m301fa87[m sm8350-common: set OVERRIDE_ENABLE_UFFD_GC
+[33m0934956[m sm8350-common: sepolicy: Allow perf hal to read graphics composer
+[33me763d45[m sm8350-common: audio: Sync with Spatial Audio
+[33m4b53024[m sm8350-common: Include Sony Dolby Atmos
+[33m8ddfdd3[m sm8350-common: Use HintManager for HWUI
+[33me944614[m sm8350-common: add platform version
+[33m7e9bbd2[m sm8350-common: Remove FM Tuner from audio input devices
+[33m3f92bf3[m sm8350-common: audio: Remove quad mic
+[33m361fd05[m sm8350-common: overlay: Disable proximity usage during doze
+[33m9fa3ea8[m sm8350-common: rootdir: Switch to lz4 for zram
+[33mfcab3e5[m sm8350-common: let the kernel set the swappiness
+[33m9c61132[m sm8350-common: gps: Reduce LOWI debug level
+[33m498f605[m sm8350-common: overlay: Don't pin launcher app in memory
+[33m7efd6fb[m  sm8350-common: props: Silence some log spam messages
+[33m3bb9437[m sm8350-common: rootdir: Move background cpuset to CPU0-1
+[33me5a792c[m sm8350-common: rootdir: Do not allow restricted tasks to run on big cores
+[33m0f96f01[m sm8350-common: props: Disable Skia tracing by default
+[33m88f146c[m sm8350-common: bonk .dependencies
+[33m4acd841[m sm8350-common: Set AOD max refreshrate to 60Hz
+[33m62408d1[m sm8350-common: Set screen recorder max framerate to 120Hz
+[33mc8e11d0[m sm8350-common: props: Add a property to enable prefetching video
+[33m6e86310[m sm8350-common: props: Enable the pre-rendering feature
+[33m0dab605[m sm8350-common: Disable kpti
+[33mf720a63[m sm8350-common: rootdir: Chown the cgroup.procs nodes
+[33m60ab32f[m sm8350-common: parts: restore brightness after HBM usage
+[33m7a14a87[m sm8350-common: parts: Add High Touch Polling Rate
+[33m59c0a87[m sm8350-common: parts: Import DC Dimming and HBM Settings
+[33m49a6bad[m sm8350-common: parts: Add thermal profiles tile
+[33m8ca64a0[m sm8350-common: parts: Fix setting default thermal profile
+[33mbeb0fc2[m sm8350-common: parts: Automatically determine thermal profile for apps
+[33mf597f03[m sm8350-common: parts: Add {navigation,video} thermal profiles
+[33m520d945[m sm8350-common: parts: Get rid of proguard flags
+[33mdb85ef3[m sm8350-common: Remove order preference for Thermal Profiles
+[33mb70eff1[m sm8350-common: parts: Migrate to CompoundButton.OnCheckedChangeListener
+[33m7fbbe1d[m sm8350-common: parts: Enable use_resource_processor for all sysui deps
+[33m353785e[m sm8350-common: parts: Fix thermal profile screen state handling
+[33m414bdfd[m sm8350-common: parts: Checkout thermal profiles to xiaomi-sm8250 implementation
+[33m83341f7[m sm8350-common: parts: sepolicy: Initial Sepolicy for Xiaomi parts
+[33m03acab4[m sm8350-common: parts: Import from xiaomi_sdm845-common
+[33m6609763[m sm8350-common: Fix vendor.qti.diaghal@1.0 elf checks
+[33m7ae50fc[m sm8350-common: prop: Enable apk fs-verity
+[33m1c6d8c2[m sm8350-common: audio: Disable Stereo channel support for voip over audio path
+[33mba9e855[m sm8350-common: Add blobs for QTI diag services support
+[33m22cc525[m sm8350-common: overlay: Turn on screen on unplug
+[33m388a2bd[m sm8350-common: overlay: Disable pocket mode lock
+[33m8436c20[m sm8350-common: Define missing HALs in FCM
+[33m2ca605b[m sm8350-common: switch to common AIDL IR service
+[33m6ac8f4b[m sm8350-common: Migrate Lineage Health to soong_config_set
+[33m3cbd04b[m sm8350-common: Migrate powershare to soong_config_set
+[33mf8b5ac5[m sm8350-common: gps: Remove CleanSpec.mk
+[33m9303f1f[m sm8350-common: Add libwfdservice_shim for WFD
+[33m437c36c[m sm8350-common: Update blobs from haydn V816.0.18.0.UKKMIXM
+[33m0039c93[m sm8350-common: Enable ELF checks for libwpa_client dependent libs
+[33m290f021[m sm8350-common: Don't explicitly set as an AB target
+[33m145b8a2[m sm8350-common: Drop PRODUCT_PACKAGES_DEBUG entry
+[33mb3a7558[m sm8350-common: switch to common QCOM AIDL bootctrl HAL
+[33m086dff6[m sm8350-common: overlay: Remove config_cellBroadcastAppLinks
+[33mbf50709[m sm8350-common: rootdir: Add "system" group to Audio HAL
+[33m1e1cb9e[m sm8350-common: rootdir: Optimize for Spatial Audio
+[33m7d0cc9a[m sm8350-common: rootdir: Enable RT priority inheritance
+[33m729027e[m sm8350-common: rootdir: add context_hub into audio hal group
+[33m8f8ae63[m sm8350-common: Remove vendor RenderScript implementation.
+[33md4d7197[m sm8350-common: Enabling sound trigger V2_3
+[33mdde502f[m sm8350-common: hidl: Unset kernel target level
+[33mfec4e08[m sm8350-common: Use the common Xiaomi FCM
+[33m6ee2da9[m sm8350-common: Inherit from QTI FCM
+[33m5e0d467[m sm8350-common: Use the common device compatibility matrix from QCOM
+[33m68867f2[m sm8350-common: Add feature flag for IPSEC_TUNNEL_MIGRATION
+[33m720026f[m sm8350-common: manifest: Bump target-level to 6
+[33m7b26cf5[m fixup! sm8350-common: Mark CNE symlink target as required package
+[33mc925836[m fixup! sm8350-common: Nuke ATFWD
+[33m259de59[m sm8350-common: sepolicy: Reformat it
+[33m728cdd7[m sm8350-common: sepolicy: Drop redundant `dynamic_fps` node label
+[33ma9d3d55[m sm8350-common: sepolicy: Drop `vendor_sysfs_double_tap` definition
+[33m0d2c88d[m sm8350-common: Move WfdCommon boot jar declaration to vendor
+[33mb77a285[m sm8350-common: Migrate mount point creation out of Android.mk
+[33m92488b8[m sm8350-common: tetheroffload: Version 1.1
+[33mc5eaca3[m sm8350-common: sepolicy: Remove duplicate snxxx AIDL rules
+[33mc849422[m sm8350-common: Move input surface to CCodec
+[33mf75ce1a[m sm8350-common: remove OMX
+[33m5afd3ae[m sm8350-common: Remove software OMX blobs
+[33mf2c4763[m sm8350-common: Remove unused `media_codecs_vendor_audio.xml`
+[33m8e7494d[m sm8350-common: Remove unused media_codecs_c2_audio inclusion
+[33mfe0f545[m fixup! sm8350-common: Remove software omx codec references
+[33mde4db44[m sm8350-common: sepolicy: Remove /sys/class/qcom-battery label
+[33mfbfe647[m sm8350-common: Switch to QTI Memtrack AIDL HAL
+[33m7a66968[m fixup! sm8350-common: do not manually build dependencies
+[33m659f27f[m sm8350-common: overlay: Enable battery cycle count
+[33m6ba1a31[m sm8350-common: rootdir: Drop vm-bootsys from fstab
+[33m5792fb5[m sm8350-common: Remove quotes in TARGET_RECOVERY_PIXEL_FORMAT
+[33mf89f1a1[m sm8350-common: gps: Convert remaining Android.mk to bp
+[33m3e96854[m sm8350-common: gps: Remove unused implementations
+[33mdad86c2[m sm8350-common: udfps: Compare against the aidl AcquiredInfo
+[33m7cfe405[m sm8350-common: Move to Xiaomi fingerprint AIDL
+[33m95534e4[m sm8350-common: Switch to AIDL USB HAL
+[33m295bc00[m sm8350-common: Switch to AIDL thermal HAL
+[33m6c31656[m sm8350-common: Address missing libbinder symbols in libwfdnative
+[33mf28a1e0[m sm8350-common: Bump libwfdservice to android.media.audio.common.types-V4
+[33m9eb1f35[m sm8350-common: Shim WFD with libgui_shim/libinput_shim
+[33me87fc6e[m sm8350-common: Shim widevine with libcrypto_shim
+[33mfda82bd[m sm8350-common: Mark CNE symlink target as required package
+[33mbeb8a7b[m sm8350-common: Nuke ATFWD
+[33m470a83a[m sm8350-common: Move to 64bit wfdservice
+[33m2b58739[m sm8350-common: Update display stack from sunstone V816.0.8.0.UMQMIXM
+[33meefc674[m sm8350-common: Update blobs from haydn V816.0.11.0.UKKMIXM
+[33mce20c65[m sm8350-common: Migrate to py extract utils
+[33mbbd15bf[m sm8350-common: Enable ELF checks for libwfdmmsrc_proprietary
+[33mfe37be7[m sm8350-common: udfps: s/hander/handler
+[33m17cc8e8[m sm8350-common: udfps: Ensure fod_status is always enabled during enroll
+[33m7206bec[m sm8350-common: udfps: Update vendorCodes
+[33m9b2987f[m sm8350-common: udfps: Notify goodix HAL on fod_press_status changes
+[33m3d05113[m sm8350-common: Remove elf files in copy files check
+[33m9c49445[m sm8350-common: Import missing 64-bit wfd lib
+[33mdbc7a5b[m sm8350-common: Import missing 32-bit blobs
+[33m5057edb[m sm8350-common: Decommonize citsensorservice
+[33m4d6f597[m sm8350-common: extract-files improvements
+[33m964587f[m sm8350-common: Patch libwfdservice to resolve duplicate dependencies
+[33m175ad2b[m sm8350-common: Work around using prebuilt HWC
+[33mb23289e[m sm8350-common: do not manually build dependencies
+[33m29d3b46[m sm8350-common: Disable ELF checks for certain libraries
+[33m6e4f301[m sm8350-common: skip dependencies which aren't defined in .bp
+[33m8e7116e[m sm8350-common: fix QCOM WFD ELF checks
+[33m594d9a4[m sm8350-common: fix vendor.qti.imsrtpservice@3.0 ELF checks
+[33mf3a367a[m sm8350-common: fix com.qualcomm.qti.dpm.api@1.0 ELF checks
+[33m7fddac6[m sm8350-common: Enable elf checks
+[33m906c659[m sm8350-common: Add vendor soong imports to extract
+[33m9f42372[m sm8350-common: Build xiaomi-telephony-stub
+[33mb019493[m sm8350-common: Remove media_codecs_google_c2*
+[33m51597d3[m sm8350-common: Use AOSP default Codec2/OMX ranks
+[33mbab4882[m sm8350-common: Remove software omx codec references
+[33mefd7b80[m sm8350-common: Update blobs from haydn V816.0.6.0.UKKMIXM
+[33mddd6604[m sm8350-common: Migrate sensor HAL to AIDL interface
+[33mef62bc2[m sm8350-common: Partially revert "Move to QTI health AIDL service"
+[33mb695303[m sm8350-common: Drop SDM LiveDisplay service
+[33m973a5eb[m sm8350-common: Sync extract scripts with templates
+[33m9c06076[m sm8350-common: Move to Xiaomi IR AIDL
+[33m0505135[m sm8350-common: Switch to common lineage Powershare hal
+[33mf87e3df[m sm8350-common: Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+[33mbad9a92[m sm8350-common: Convert WiFi firmware symlinks to install_symlink targets
+[33m42e9f85[m sm8350-common: Move to new RFS install_symlink targets
+[33mf05e1b1[m sm8350-common: sepolicy: Remove commonized labels
+[33m777c73c[m sm8350-common: Import missing IMS lib
+[33m5c6f59a[m sm8350-common: Build missing libraries for 14 QPR3
+[33m0f82122[m sm8350-common: Disable UFFD GC
+[33md9ba0ba[m sm8350-common: Update blobs from V816.0.2.0.UKKMIXM
+[33mc15ddc9[m sm8350-common: Update radio properties from haydn V816.0.1.0.UKKCNXM
+[33mc58235a[m sm8350-common: Update blobs to haydn V816.0.1.0.UKKCNXM
+[33m8a6aa33[m sm8350-common: Don't explicitly include updatable_apex.mk
+[33m9b44afa[m sm8350-common: gps: Don't include cutils/threads.h
+[33m5872f10[m sm8350-common: Add BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+[33md96e620[m sm8350-common: Disable display refresh rate override
+[33m38692c1[m sm8350-common: sepolicy: Remove unused rules
+[33m542e0e6[m sm8350-common: sepolicy: Rework batterysecret rules
+[33m31ae29b[m sm8350-common: sepolicy: Simplify fingerprint rules
+[33m76833c1[m sm8350-common: Inherit common partition reserved sizes
+[33mcceac80[m sm8350-common: Allow extracting only firmware images
+[33m5526ecb[m sm8350-common: audio: Nuke unsupported haptics output configuration
+[33m329b568[m sm8350-common: Remove libtinyxml
+[33m35268a5[m sm8350-common: Use FUSE passthrough by default
+[33ma33a379[m sm8350-common: Replace direct pid writes with setting task profiles for audio interfaces
+[33m6b67b98[m sm8350-common: Remove some camera-daemon commands
+[33m1583b93[m sm8350-common: Add firmware extraction support
+[33mb2d650a[m sm8350-common: Move to QTI health AIDL service
+[33m7ee4323[m sm8350-common: Build android.frameworks.sensorservice@1.0.vendor
+[33m45e8c33[m sm8350-common: Add vendor.nxp.nxpnfc_aidl.INxpNfc/default
+[33mba7c14c[m sm8350-common: Build Widevine DRM HAL dependencies
+[33m85f6dbd[m sm8350-common: Migrate to AIDL ClearKey DRM HAL
+[33m251e2ce[m sm8350-common: Add prebuilt protobuf 3.9.1 to vendor partition.
+[33m003eb64[m sm8350-common: Switch to common QTI vibrator HAL
+[33mbdd033c[m sm8350-common: sepolicy: Label more wakeup dirs
+[33m3bef795[m sm8350-common: rootdir: Set up missing fingerprint data dirs
+[33me9341b3[m sm8350-common: rootdir: Update dir's for camera
+[33meefe8a8[m sm8350-common: vibrator: Add support to awinic_haptic node
+[33md945ee1[m sm8350-common: Add redwood support
+[33m67f239e[m sm8350-common: sepolicy:  Migrate to snxxx NFC AIDL HAL
+[33m57a0e9f[m sm8350-common: Build AIDL NXP NFC HAL
+[33m7316776[m sm8350-common: gps: Add NULL check before object access
+[33m5cd6743[m sm8350-common: gps: Fix compilation on U
+[33m8d3689d[m sm8350-common: Replace isolated_app with isolated_app_all
+[33m756a419[m sm8350-common: Migrate to restructured sepolicy_vndr
+[33m2f0b4fe[m sm8350-common: Build libprotobuf-cpp-lite-3.9.1-vendorcompat
+[33m9fd473f[m sm8350-common: Update makefile to use the AIDL Wifi Vendor HAL.
+[33m77552ff[m fixup! sm8350-common: Configure common Powershare HIDL
+[33mfd04766[m sm8350-common: Include vendor/debugfs.config
+[33me689ab2[m sm8350-common: Set PRODUCT_SET_DEBUGFS_RESTRICTIONS
+[33m743a4c2[m sm8350-common: Build Lineage Health HAL
+[33m1fe560c[m fixup! sm8350-common: Update display blobs from Sony Xperia 1 III (XQ-BC72) 61.2.A.0.410
+[33me781c81[m sm8350-common: ueventd: Remove all permissions from /sys/devices/soc0/serial_number
+[33mff52086[m sm8350-common: Implement xtra-daemon control via property
+[33m44e37a4[m sm8350-common: gps: Remove all Wno-error flags
+[33m4287a4e[m sm8350-common: gps: Implement list empty error code for msg_q
+[33me328d2e[m sm8350-common: gps: Address logical-op-parentheses warning
+[33m4043103[m sm8350-common: gps: Reorder initializations list to satisfy warnings
+[33mdfe0406[m sm8350-common: gps: Resolve unused parameter warnings
+[33m9f50221[m sm8350-common: Remove unneeded NFC package
+[33m5dbdd3b[m sm8350-common: gpt-utils: Check ufs device first before checking partition names
+[33m84ac93e[m fixup! gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti)
+[33md23a05b[m sm8350-common: Configure common Powershare HIDL
+[33m000a30a[m sm8350-common: sepolicy: Add fod_press_status rules
+[33m017cb94[m sm8350-common: Add Xiaomi dtool HAL
+[33m6d73211[m sm8350-common: sepolicy: Address more denials for fp hal
+[33mf4ed3a6[m sm8350-common: sepolicy: Allow hal_fingerprint_default to access vendor_fingerprint_device
+[33m5877d0e[m sm8350-common: udfps: Set fod status based on vendor acquired and cancel
+[33m1d532df[m sm8350-common: sepolicy: Allow hal_fingerprint_default to creat netlink_socket
+[33mf509fd4[m sm8350-common: sepolicy: Label display drivers
+[33m80ae8e1[m sm8350-common: Make the value of screen density overridable
+[33mda379cd[m sm8350-common: Add support for mars and star
+[33m75c0b40[m sm8350-common: sepolicy: Address mlipay denials
+[33mdf5c258[m sm8350-common: sepolicy: Allow platform app to find SoterService
+[33m3213b81[m sm8350-common: Update display blobs from Sony Xperia 1 III (XQ-BC72) 61.2.A.0.410
+[33ma928936[m sm8350-common: Update display HDR blobs from tundra S3SJS32.1-86-1-4
+[33m5943e27[m sm8350-common: sepolicy: Label libSNPE.so as same process hal file
+[33mcb86ec2[m sm8350-common: Restructure display blobs sections
+[33me86ecfd[m sm8350-common: Unset DEXPREOPT_GENERATE_APEX_IMAGE
+[33m07b6eb7[m sm8350-common: Move to common sensors multihal
+[33m88fdfc3[m sm8350-common: sepolicy: Remove duplicate lahaina wakeup nodes
+[33m2a641ef[m sm8350-common: sepolicy: Label camera libraries as same process hal files
+[33m6766cd9[m sm8350-common: Build graphics allocator 3.0 interface to vendor
+[33m749023b[m sm8350-common: hidl: Add cameraperf to framework compatibility matrix
+[33m08a574b[m sm8350-common: sepolicy: Add camera perf and postproc hwservice
+[33mb201a74[m sm8350-common: Switch to camera.xiaomi.so
+[33mf9363b1[m sm8350-common: Import public.libraries.txt from haydn V14.0.3.0.TKKMIXM
+[33m794542b[m sm8350-common: sepolicy: Set sensor HAL as a client of audio HAL
+[33m564e70f[m sm8350-common: Build 64-bit audio HIDL as well
+[33m69c4557[m sm8350-common: Decommonize camera blob fixups
+[33m1ee719b[m sm8350-common: Drop custom APM flag along with no-op audio flags
+[33m0dcd3f3[m sm8350-common: Sort blobs list /w sort-blobs-list.py
+[33mdcfd80b[m sm8350-common: media: Sync media configs from haydn V14.0.3.0.TKKMIXM
+[33m6c44bff[m sm8350-common: rootdir: Sync rootdir from haydn V14.0.3.0.TKKMIXM
+[33mcb4f032[m sm8350-common: wifi: Disable Target Wake Time
+[33mce5bf61[m sm8350-common: Patch ims.apk
+[33m7f3d4cc[m sm8350-common: Update from haydn V14.0.3.0.TKKMIXM
+[33mf3e0c86[m sm8350-common: sepolicy: Label more wakeup nodes
+[33m4c87687[m sm8350-common: configs: Add camera-daemon hint
+[33m9ab4694[m sm8350-common: Remove frozen and unfrozen cgroup
+[33mbb8438e[m sm8350-common: Add UClamp support for lahaina
+[33mda882c6[m sm8350-common: Enable zygote critical window
+[33mfa14a03[m sm8350-common: Enable set channel on NDP setup
+[33m2642071[m sm8350-common: wifi: Configure correct overlay configuration.
+[33m678df67[m sm8350-common: Drop config_setColorTransformAccelerated
+[33m88d8ff6[m sm8350-common: overlay: Update multiple vibration strength levels overlay for 13
+[33mbc2fe83[m sm8350-common: QCOM healthd is globally tracked now
+[33m886c8c2[m sm8350-common: gps: Fix -Wbitwise-instead-of-logical
+[33m2218390[m sm8350-common: Remove unused persist.bluetooth.a2dp_offload.cap property
+[33ma25e493[m sm8350-common: Add Bluetooth power overlays to sysprops
+[33m286b095[m sm8350-common: Move BT profiles props to vendor
+[33m1808993[m sm8350-common: Disable LE audio related profiles
+[33me118603[m sm8350-common: Use the ?= operator so BT properties can be overridden
+[33mc5ced08[m sm8350-common: Set default the Bluetooth class of device
+[33m8e6bf6e[m sm8350-common: Update LE Audio profile properties to match spec and implementation
+[33m5a1ee9c[m sm8350-common: Enable bluetooth profiles with product.prop
+[33me44aac4[m sm8350-common: Remove bdroid_buildcfg.h
+[33m2c43d6d[m sm8350-common: Remove A2DP input module in audio policy configuration
+[33m43cf637[m sm8350-common: Switch BtAudio to AIDL
+[33m3334f2e[m sm8350-common: Use bluetooth.audio@2.1
+[33mf6d9784[m sm8350-common: audio: Enable AOSP bluetooth audio HAL v2
+[33mc961ca9[m sm8350-common: Remove libbthost_if from product packages
+[33me672de6[m sm8350-common: Remove QTI BT stack bits
+[33ma1cf0b5[m Revert "sm6250-common: Switch to QTI bt stack"
+[33m8a4059e[m sm8350-common: Compile the kernel without GCC
+[33m346f014[m sm8350-common: sepolicy: Drop duplicate wakeup node labels
+[33md141088[m sm8350-common: Switch to legacy sepolicy_vndr
+[33m0247e26[m sm8350-common: sensors: Updated multihal to use new sensors AIDL interface.
+[33m380fa0b[m sm8350-common: aidl: Remove ndk_platform backend. Use the ndk backend.
+[33mc4615e5[m sm8350-common: Stop building libdisplayconfig.qti vendor variant
+[33mc423b6d[m sm8350-common: Removing GSI keys
+[33m91909d8[m sm8350-common: Update blobs to haydn V13.0.4.0.SKKMIXM
+[33mf964734[m sm8350-common: Enable WFD property "persist.debug.wfd.enable".
+[33m58e993f[m sm8350-common: overlay: Remove "SIM x is HD capable" message
+[33m4209e6c[m sm8350-common: Allow overriding content detection refresh rate props
+[33mab1b4db[m sm8350-common: Drop media target variant property from system_ext.prop
+[33m3bd4fbc[m sm8350-common: sepolicy: Allow camera hal to read mnt_vendor_file
+[33mec2683f[m sm8350-common: Add hotword priv app permissions
+[33ma555d6a[m sm8350-common: Commonize HotwordEnrollment
+[33m7469b72[m sm8350-common: Blob out audio HAL extensions
+[33m3be76db[m sm8350-common: overlay: Set preferred refresh rate on keyguard to 60
+[33m3427df5[m sm8350-common: overlay: Add support for doze auto brightness
+[33m5a9786b[m sm8350-common: Add xiaomi cit sensor service
+[33m42b801c[m sm8530-common: Switch to fragmented defconfigs
+[33mca24a1d[m sm8350-common: sepolicy: Nuke duplicate wakeup nodes
+[33m98afa0b[m sm8350-common: vibrator: Update effect names
+[33m8bd2080[m sm8350-common: Switch to /vendor_dlkm for kernel modules
+[33m7689e18[m sm8350-common: Update to Boot Control HAL v1.2
+[33m8e17df6[m sm8350-common: gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti),
+[33mfa34ced[m sm8350-common: gpt-utils: Do fsync after writing partition entries
+[33m91901de[m sm8350-common: gpt-utils: Add product to ab partition list
+[33m4a39060[m sm8350-common: gpt-utils: Drop unused sparse_crc32
+[33mbd03a06[m sm8350-common: bootctrl: Remove bootctrl.xiaomi_sm8350 target
+[33mc04036a[m sm8350-common: Set max_retry_alloc_output_timeout to 0
+[33m4246a7a[m sm8350-common: Automatically add apk/jar/vintf fragments to PRODUCT_PACKAGES
+[33m3c56519[m sm8350-common: gps: Revert oem changes
+[33m467b1af[m sm8350-common: gps: Update to LA.UM.9.14.r1-19200.02-LAHAINA.QSSI13.0
+[33m3648477[m sm8350-common: Update WCNSS_qcom_cfg.ini from haydn V13.0.3.0.SKKMIXM
+[33m88651f7[m sm8350-common: wifi: Drop MIUI EDCA parameters
+[33m3bffdc7[m sm8350-common: rootdir: Update init.qti.kernel.rc from haydn V13.0.3.0.SKKMIXM
+[33me5b53b9[m sm8350-common: rootdir: Update kernel post boot scripts from haydn V13.0.3.0.SKKMIXM
+[33m9da36d6[m sm8350-common: media: Update from haydn V13.0.3.0.SKKMIXM
+[33m9ff3970[m sm8350-common: Update blobs to haydn V13.0.3.0.SKKMIXM
+[33mfdc534b[m sm8350-common: udfps: Update handler with newly introduced methods
+[33m1799fe9[m sm8350-common: Add udfps handler lib
+[33m16a45dc[m sm6150-common: Move to common fingerprint HIDL
+[33md56b211[m sm8350-common: Drop lineage fod HAL
+[33m695e14a[m sm8350-common: Move to common Xiaomi powershare HIDL
+[33m386e653[m sm8350-common: Build common iFAA service
+[33m0a02546[m sm8350-common: Build mtdservice interface lib from source
+[33mbcde8e9[m sm8350-common: Switch to source-built mlipay interface
+[33mb98097f[m sm8350-common: Move DTC_EXT definition to vendor/lineage
+[33m5b6287a[m sm8350-common: Move LLVM=1 and LLVM_IAS=1 to BoardConfigKernel
+[33m3755bd9[m Revert "sm6250-common: overlay-lineage: set config_haveNotch overlay to true"
+[33m3be7928[m sm8350-common: Drop all component overrides
+[33m2c89c46[m sm8350-common: Drop QTI camera device usage
+[33m5dc6b6d[m sm8350-common: Drop support for Snapdragon Camera
+[33m0ec2d73[m sm8350-common: Remove CLANG compile flag
+[33m805339b[m sm8350-common: Move ueventd.qcom.rc to /vendor/etc.
+[33m5d7ee38[m sm8350-common: Inherit launch_with_vendor_ramdisk for vAB
+[33mec81b27[m sm8350-common: vAB: Move GSI AVB keys to /vendor_boot
+[33mda9b02c[m sm8350-common: vAB: Move recovery resources to /vendor_boot
+[33m6df2c52[m sm8350-common: Build needed HIDL libs into vendor
+[33m8bf7156[m sm8350-common: Move to AOSP NXP NFC HAL
+[33md4649ad[m sm8350-common: Update USB HAL to V1.3 implementation
+[33m4bf01b2[m sm8350-common: Update clearkey plugin to drm HAL v1.4
+[33m39c4d97[m sm8350-common: overlay: Enable haptic text cursor
+[33m57fc398[m sm8350-common: Unpin updatable-media from memory
+[33mefaa21f[m sm8350-common: Remove odex/oat files from pinner list.
+[33mf58718e[m sm8350-common: Update SurfaceFlinger pin on all targets
+[33mf4fba78[m sm8350-common: Modify Vulkan and OpenGL version to 2020-03-01
+[33me675ce1[m sm8350-common: Add OpenGL ES and update Vulkan dEQP feature flags
+[33mc7bd248[m sm8350-common: Set manufacturer soc property
+[33m60afa5a[m sm8350-common: sepolicy: Attach vendor_property_type to properties
+[33md434f19[m sm8350-common: Switch to SYSTEM_EXT_{PUBLIC,PRIVATE}_SEPOLICY_DIRS
+[33mb310ffe[m sm8350-common: Use BOARD_VENDOR_SEPOLICY_DIRS
+[33m3114d30[m sm8350-common: Allow ELF prebuilts in PRODUCT_COPY_FILES.
+[33mb0956fe[m sm8350-common: Specify version for aidl_interface explicitly
+[33m2302a78[m Revert "sm8350-common: sepolicy: allow spodaemon to access spuari status prop"
+[33m6cff8cf[m sm8350-common: sepolicy: Add vendor prefix to mlipay_prop
+[33ma64abcb[m sm8350-common: Sort blobs list /w sort-blobs-list.py
+[33m12b22bf[m sm8350-common: Add support for low power adaptive control feature
+[33m8bb6904[m sm8350-common: Remove libfastcvopt from module
+[33m9aa00a5[m sm8350-common: Drop updatable GPU drivers
+[33m83baf2b[m sm8350-common: Drop audio.a2dp.default
+[33m554f316[m sm8350-common: audio: Nuke misoundfx effects
+[33m8c38b65[m sm8350-common: hal: audio: Update gain to 84 for WSA MCS devices
+[33mdbb8b46[m sm8350-common: hal: set valid and supported channel mask for earpiece
+[33mcb78e07[m sm8350-common: configs: Add Stereo config channel support to usb surround sound
+[33m8578c54[m sm8350-common: audio: Don't advertise vorbis offloading support
+[33mdd54d84[m sm8350-common: audio: Drop LHDC audio format
+[33m6560469[m Partially revert "sm8350-common: audio: remove unsupported configuration options"
+[33mc2e6077[m sm8350-common: Drop audio_configs.xml
+[33m397523e[m sm8350-common: rootdir: Remove duplicate "start logd"
+[33m3162411[m sm8350-common: Enforce vendor tree presence
+[33mcd8d088[m sm8350-common: Generate the apex image.
+[33m5f8fe28[m sm8350-common: Use randomly generated camera config [1/2]
+[33m07f2ac9[m sm8350-common: Go away Megvii [1/2]
+[33mc180169[m sm8350-common: Copy snapdragon color libs config from display HAL
+[33m9cce7a6[m sm8350-common: Copy powerhint.xml from power HAL
+[33m5a1fa60[m sm8350-common: Remove virtual framebuffer.
+[33mcaaa6af[m sm8350-common: Revert Xiaomi cpuset changes
+[33mb0fed8b[m sm8350-common: rootdir: Configure input boost for shima
+[33m611c35b[m sm8350-common: rootdir: Drop powerkey input boost
+[33meb8b12d[m sm8350-common: rootdir: Prefer s2idle over deep for lahaina
+[33m83662ab[m sm8350-common: rootdir: Add shima and yupik kernel post_boot scripts
+[33me541333[m sm8350-common: rootdir: Remove IO read_ahead_kb tune
+[33m163cec3[m Revert "sm8350-common: let init do read ahead configuration"
+[33m8a5471e[m sm8350-common: Commonize Display calibration configs
+[33mba1fac3[m fixup! sm8350-common: sepolicy: Label more wakeup nodes
+[33m834d121[m sm8350-common: Don't explicitly build fs_config_files
+[33m7e777df[m sm8350-common: Don't copy audio policy to qssi dirs
+[33m222cbc7[m Revert "sm8350-common: Set linker to LLD"
+[33m3d0471a[m sm8350-common: Pass TARGET_PRODUCT variable to kernel flags
+[33mad4dd55[m sm8350-common: Decommonize batterysecret
+[33m19ff681[m sm8350-common: gps: Lower debug level
+[33mfd3b078[m sm8350-common: gps: Disable xtwifi location services
+[33meae8e1d[m sm8350-common: Fix non-ASCII character in gps.conf
+[33m8cf9c72[m sm8350-common: Build GPS HAL from source and import proprietary configs
+[33m75da4c0[m sm8350-common: Import gps hal from LA.UM.9.14.r1-16700-LAHAINA.0
+[33m364f235[m sm8350-common: Move libminksocket to DRM section
+[33mab2ce96[m sm8350-common: Fix section sorting in BoardConfig
+[33m6ffc181[m Revert "sm6250-common: allow duplicate targets"
+[33m4caec43[m sm8350-common: Provide unique vintf manifest and init rc names
+[33m92a56c0[m sm8350-common: fingerprint: Setup file permissions for fpc and goodix
+[33m5773861[m sm8350-common: fingerprint: Add xiaomi fingerprintextension support
+[33m19d012f[m sm8350-common: Rename and build fingerprint service
+[33m75d8b75[m sm8350-common: Import fingerprint service
+[33m5990c8c[m sm8350-common: Add libqrtrclient
+[33mcfe2ce3[m sm8350-common: Decommonize NFC configs
+[33md90172a[m sm8350-common: Add power HAL extension and use xiaomi-touch to handle dt2w
+[33ma0ec410[m sm8350-common: sepolicy: Label more wakeup nodes
+[33m5600780[m sm8350-common: sepolicy: Label more wakeup nodes
+[33mffe4f53[m sm8350-common: sepolicy: Allow bluetooth hal to read bt.mac
+[33m0b7ee41[m sm8350-common: sepolicy: Label xiaomi MAC address tool and data dirs
+[33m577f097[m sm8350-common: sepolicy: Allow perf hal to read hal_camera_default dir
+[33m7055015[m sm8350-common: sepolicy: Add mlipay rules
+[33m5d25df1[m sm8350-common: sepolicy: Add mius rules
+[33m124e1c3[m sm8350-common: sepolicy: Replace mfp rules with hal_fingerprint_default
+[33m9f4b8db[m sm8350-common: vibrator: Add support to aw8624_haptic node
+[33m5ae87ff[m sm8350-common: vibratoreffect: Read vibration effects fifo data from vendor
+[33mb9612a4[m sm8350-common: Rename qti vibrator effect
+[33m7349e1a[m sm8350-common: Import qti vibrator effect
+[33mcab4afd[m sm8350-common: vibrator: Make the usage of effect stream optional
+[33m8463e24[m Revert "sm8350-common: vibrator: remove unused effect stream handling"
+[33mca6948b[m sm8350-common: Move vibrator HAL to aidl subdir
+[33m269452e[m sm8350-common: Add lineage.dependencies
+[33m8d47162[m sm8350-common: Add manfest entry for IR hal service
+[33m1a7b42f[m sm8350-common: Drop remaining pieces of qcom system daemon
+[33mbc6dd37[m sm8350-common: Cleanup qti_whitelist
+[33m29e5b0c[m sm8350-common: Import qti_whitelist
+[33m481d55d[m sm8350-common: Add telephony system-ext privapp permissions
+[33mda2b8fb[m sm8350-common: media: Import yupik configs
+[33m1f07b44[m sm8350-common: Set ro.media.xml_variant.profiles to choose media profiles
+[33m2fac1fd[m sm8350-common: media: Cleanup init script
+[33me315cf2[m sm8350-common: Import qti media init script from odin V12.5.12.0.RKMCNXM
+[33m668fcdb[m sm8350-common: Import shima_v1 media profiles from odin V12.5.12.0.RKMCNXM
+[33me0d174c[m sm8350-common: media: Update lahaina media_profiles from odin V12.5.5.0.RKMCNXM
+[33mb7de517[m sm8350-common: Add target specific lahaina media profiles
+[33m9cd39bb[m sm8350-common: Drop unused google video media codecs
+[33mb0ecaf4[m sm8350-common: media: Import shima_v1 media codecs configs from odin V12.5.12.0.RKMCNXM
+[33mf7c1d55[m sm8350-common: media: Drop media_codecs_c2_audio include
+[33m9d02c50[m sm8350-common: Update lahaina media configs from odin V12.5.12.0.RKMCNXM
+[33mbbe0bca[m sm8350-common: Always use lahaina vendor media configs
+[33mee68b68[m sm8350-common: Move lahaina media codecs configs to subdir
+[33m2257bcb[m sm8350-common: Unset media target, xml variant and netflix properties
+[33m64b4d24[m sm8350-common: Copy audio configs to sku_yupik
+[33m61ee6d4[m sm8350-common: Copy audio configs to sku_shima too
+[33m1c56ed3[m sm8350-common: Import qcv init scripts and unset sku property
+[33m3c53ea0[m sm8350-common: Drop sensorscalibrate hal
+[33me034840[m sm8350-common: Drop unnecessary manifest entries
+[33m4865e34[m sm8350-common: Add mlipay to framework compatibility matrix
+[33mfdc931f[m sm8350-common: Build audioadsprpcd
+[33m76ba94d[m sm8350-common: Build qti camera postproc interface to vendor
+[33m420ef3f[m sm8350-common: Build ant interface to vendor
+[33md6dae53[m sm8350-common: Build 2.2 qti perf interface to vendor
+[33md15e57e[m sm8350-common: media: Add and publish Codec2 HAL service
+[33macdabca[m sm8350-common: Remove android.hidl.base@1.0 shims
+[33m74a4a72[m sm8350-common: Remove dummy android.hidl.manager@1.0 libs
+[33m2f00448[m sm8350-common: rootdir: Update mi_thermald init script
+[33m035adac[m sm8350-common: Import init.vendor.wlan.rc
+[33m687e676[m sm8350-common: Drop unused thermal-engine stack
+[33m3bcd564[m sm8350-common: Add system prefix to proprietary libraries in /system
+[33m79a1faa[m sm8350-common: Merge SDM and HDR display sections
+[33m75c1512[m sm8350-common: Fix fm interface
+[33mb5e785f[m sm8350-common: Decommonize firmware
+[33m218f519[m sm8350-common: Drop unnecessary wfd blobs
+[33m7c59fa3[m sm8350-common: Drop trusted user interface
+[33mcd4076b[m sm8350-common: Drop servicetracker HAL
+[33m79799b0[m sm8350-common: Drop QSPM HAL
+[33md79bc3e[m sm8350-common: Drop qccvndhal
+[33m5a4fe51[m sm8350-common: Drop unused OMX codecs
+[33m42f2c20[m sm8350-common: Drop unused listen blobs
+[33m00464fa[m sm8350-common: Drop perf learning module
+[33m4788802[m sm8350-common: Drop IO Prefetcher
+[33m6edc9d3[m sm8350-common: Import CAcert app
+[33m6ed8980[m sm8350-common: Import gnss_antenna_info.conf
+[33m975c656[m sm8350-common: Drop duplicated mlid
+[33mc978e5b[m sm8350-common: Drop unused graphics blobs
+[33mb4a4fdb[m sm8350-common: Simplify graphics sections
+[33m5ed598d[m sm8350-common: Drop unnecessary dsp 32bit interface
+[33m81fa717[m sm8350-common: Drop qssecom HAL and add liboemcrypto
+[33m9e04fe6[m sm8350-common: Unpin display blobs
+[33m325f543[m sm8350-common: Kill diag stack
+[33me22fa1a[m sm8350-common: Move FastCV blobs to Computer Vision section
+[33m96652be[m sm8350-common: Restructure and cleanup radio related blobs
+[33mc95252f[m sm8350-common: Cleanup CDSP blobs
+[33m77e4883[m sm8350-common: Move libcdfw to gps section
+[33m6c37a53[m sm8350-common: Decommonize ACDB blobs
+[33maab605d[m sm8350-common: Drop unused 32-bit libadsprpc
+[33m894f73b[m sm8350-common: Add system_ext audio sphere blobs
+[33mbc2fa92[m sm8350-common: Move libadsprpc.so to adsp section
+[33m022ad3d[m sm8350-common: Drop unused loadalgo
+[33m7638359[m sm8350-common: Drop QC implemenation for audio sw effects
+[33mdc4274c[m sm8350-common: Cleanup bluetooth blobs
+[33m821be22[m sm8350-common: Upate vendor security patch level from odin V12.5.12.0.RKMCNXM
+[33mc1d6035[m sm8350-common: Update blobs from odin
+[33m50d2f89[m sm8350-common: Re-write proprietary-files
+[33m0ba2800[m Revert "sm8350-common: proprietary-files: fix vendor.qti.hardware.data.connection xml version"
+[33m2da884c[m sm8350-common: IFactory 2.3
+[33mb24d1e4[m sm8350-common: Bluetooth: Bluetooth Audio HIDL up-rev to 2.1
+[33m73dabdc[m sm8350-common: manfiest: Update ITrustedInput to v1.1 and ITrustedUI to v1.2
+[33m0677d74[m sm8350-common: Uprev ImsRadio version to 1.7
+[33m58fd901[m sm8350-common: manifest: Update IQtiRadio with v2.6
+[33mf7aa026[m sm8350-common: manifest: Update uce hal 2.3 version
+[33mf917259[m sm8350-common: lahaina: add mwqemadapter manifest entry
+[33m88da316[m sm8350-common: Update factory version to v2.2
+[33m0f23a18[m sm8350-common: manifest_lahaina: TUI: Revert entry for system helper service
+[33m6c9f4d9[m sm8350-common: manifest: Update ITrustedUI interface to 1.1
+[33mb655d67[m sm8350-common: Uprev QtiRadio version to 2.5
+[33mf95387b[m sm8350-common: lahaina: remove audio configstore service
+[33mc8c573b[m sm8350-common: Embmssl hidl manifest 1.1 version change for lahaina variant
+[33mde0afe1[m sm8350-common: manifest: remove manifest entry for PASR HAL service
+[33m41defa1[m sm8350-common: manifest_lahaina: TUI: Add entry for systemhelper service
+[33mfa9645a[m sm8350-common: Update LPA interface version
+[33m3f6c75e[m sm8350-common: Fix pureShot_parameter xml format
+[33mfd25726[m sm8350-common: Move sensor hals config to vendor repository
+[33m4c5f367[m sm8350-common: audio: config: Add support for LC3 a2dp capture
+[33mef5fbab[m Revert "sm8350-common: audio: configs: Add support for LC3 format."
+[33m53f738d[m sm8350-common: audio: Remove supporting usb device from "fast input" and "quad mic"
+[33ma137606[m sm8350-common: audio: configs: Add support for LC3 format.
+[33m6c6d38e[m sm8350-common: audio: Remove dynamic attributes from APS config
+[33mde2c62f[m sm8350-common: ueventd: Cleanup unnecessary permissions
+[33m717d76a[m sm8350-common: ueventd: Setup permissions on mius iio devices
+[33m07d7fc7[m sm8350-common: ueventd: Don't modify permissions of /dev/hw_random
+[33m0072a17[m sm8350-common: Move ueventd.rc to rootdir and checkout to LA.UM.9.14.r1-19100-LAHAINA.0
+[33m33acba3[m sm8350-common: Drop spu and strongbox from manifest
+[33m057daef[m sm8350-common: Move vendor manifest fragments to vendor repository
+[33m2eb8ab7[m sm8350-common: Checkout framework compatibility matrix to LA.QSSI.11.0.r1-12100-qssi.0
+[33m7c8f94d[m sm8350-common: Checkout compatibility matrix to LA.UM.9.14.r1-16700-LAHAINA.0
+[33mda78308[m sm8350-common: Checkout manifest_lahaina to caf
+[33m8799b8c[m sm8350-common: Move manifests to hidl folder
+[33m027ef2d[m sm8350-common: Drop unnecessary framework manifest
+[33m7d2fbba[m sm8350-common: Update extract scripts from templates
+[33ma5d227a[m sm8350-common: charger: Enable offline charger suspend
+[33mb0b8884[m Revert "sm6250-common: Hide sRGB toggle in developer options"
+[33mec5837a[m sm8350-common: Don't pin camera app in memory
+[33m4ce74b0[m Revert "sm6250-common: overlay: Add pinned files from stock"
+[33m002c333[m sm8350-common: overlay: Drop brightness ramp rate configuration
+[33m3b3e644[m sm8350-common: overlay: Update bluetooth power configs from odin MIUI V12.5.12.0.RKMCNXM
+[33m45f54b2[m sm8350-common: Enable vibration intensity control
+[33mbb4f7c3[m sm8350-common: Enable adaptive color mode
+[33me4e2055[m sm8350-common: overlay: Add missing doze configurations
+[33m4211f1d[m sm8350-common: Drop TetheringConfig rro
+[33m4a1f241[m sm8350-common: Don't sign Wifi RROs with platform cert
+[33m590bd92[m sm8350-common: WifiOverlay: Update config from MIUI V12.5.5.0.RKIMIXM
+[33m71eb336[m sm8350-common: rro_overlays: Move CarrierConfig to RRO
+[33m767e2c1[m sm8350-common: overlay: Sync CarrierConfig with LA.UM.9.14.r1-19100-LAHAINA.0
+[33m8e8bccf[m sm8350-common: bluetooth: Disable clean turn on
+[33m53ae7a5[m sm8350-common: bluetooth: Drop default name setup
+[33m07da747[m sm8350-common: rootdir: fstab: Handle `avb=` fs_mgr flags correctly
+[33me5daffb[m sm8350-common: qcc-tr: define new AID for qcc-trd
+[33m58bb71d[m sm8350-common: config.fs: Add mapping for imsdaemon
+[33m6e7afdb[m sm8350-common: config.fs: init: add AID_VENDOR_FASTRPC group for fastrpc
+[33m99e97f2[m sm8350-common: rootdir: Add sdcard mount entries
+[33mb481a5f[m sm8350-common: rootdir: Update copyright header from lahaina fstab
+[33mfe715bf[m sm8350-common: rootdir: Remove start console
+[33m3ba9fbc[m sm8350-common: rootdir: Tuning UFS clkgate and ah8 during boot time
+[33m8cd50b7[m sm8350-common: shima: Support ufs and emmc variant fstab files
+[33m57f5133[m sm8350-common: shima: Fix eMMC bootup issue
+[33meac08ce[m sm8350-common: init.target.rc: remove ipa fw loading in post-fs
+[33mf58b667[m sm8350-common: rootdir: Update QMCS partition to mount with noatime
+[33m637840c[m sm8350-common: init.target.rc: move spunvm partition out of lahaina/shima fstab
+[33m77842cb[m sm8350-common: rootdir: Fix creating persist display folder
+[33mf3a9c1c[m sm8350-common: Update soundtrigger properties from odin V12.5.12.0.RKMCNXM
+[33mb967e75[m sm8350-common: Update audio feature configurations from odin V12.5.12.0.RKMCNXM
+[33mf1c1da3[m sm8350-common: Correct properties sorting
+[33meedc9b4[m sm8350-common: Cleanup system/vendor property duplicates
+[33m40eb485[m sm8350-common: Set default_network to 33 for 5G
+[33m5ff6288[m sm8350-common: Enable iwlan
+[33mf4d4732[m sm8350-common: Correct sf idle timer value
+[33m12ce552[m sm8350-common: Move fw bservie property to system
+[33m8513de5[m sm8350-common: Move bluetooth soc property to system
+[33m0b29ede[m sm8350-common: Drop unnecessary audio properties
+[33m225066c[m sm8350-common: Drop unused ucdetect radio property
+[33m4ed406a[m sm8350-common: Drop unused usb diag function name property
+[33m9abb518[m sm8350-common: Drop media properties that are not set on odin V12.5.12.0.RKMCNXM
+[33m8510c96[m sm8350-common: Drop custom media volume steps
+[33m3b3a17b[m sm8350-common: Drop unnecessary DRM property
+[33mfb1694e[m sm8350-common: Drop iorapd property
+[33mc000044[m sm8350-common: Drop unused btstack property
+[33mbdfefb8[m sm8350-common: Drop unused ril libpath property
+[33m431ed73[m sm8350-common: Drop privapp permissions enforce property
+[33mda82d41[m sm8350-common: Drop unused ssr property
+[33me728336[m sm8350-common: Drop unnecessary wifi properties
+[33mec89678[m sm8350-common: Drop camera.aux.packagelist
+[33meee102f[m sm8350-common: Drop unused EGL lib symlinks
+[33m1275ef2[m sm8350-common: Set linker to LLD
+[33m0098ec7[m sm8350-common: Disable debugging full super build
+[33mc207015[m sm8350-common: Set armv8-2a for arch variant
+[33m1a3440b[m Revert "sm6520-common: use BUILD_COPY_HEADERS"
+[33m0d8363f[m sm8350-common: Drop RenderScript override
+[33mda5b536[m sm8350-common: Drop deprecated TARGET_USES_ION flag
+[33m0269bed[m sm8350-common: Kill deprecated TARGET_USES_MKE2FS
+[33m02d4073[m sm8350-common: Drop unused TARGET_USES_HWC2 flag
+[33m8a92c6d[m sm8350-common: Remove obsolete dex settings
+[33m114ba94[m sm8350-common: Remove USE_XML_AUDIO_POLICY_CONF
+[33m2191cd7[m sm8350-common: Drop unnecessary audio HAL flags from BoardConfig
+[33m02192e7[m sm8350-common: Kill deprecated/unneeded board flags
+[33m7ba36f0[m sm8350-common: Remove ineffective BOARD_KERNEL_TAGS_OFFSET variable
+[33m589821d[m sm8350-common: Simplify AVB flag logic
+[33m941f732[m sm8350-common: Drop vendor modules load
+[33me6b0364[m sm8350-common: Drop unused releasetools
+[33m88c208f[m sm8350-common: Drop disabled ubwc flag
+[33m6f918f5[m sm8350-common: Enable wifi display
+[33m64e18b2[m sm8350-common: Enable livedisplay
+[33mc06ff1e[m sm8350-common: Don't build disabled audio feature libs
+[33m790cbbe[m sm8350-common: Replace audio@2.0-service with audio.service
+[33m985f799[m sm8350-common: Cleanup audio packages
+[33m84979d4[m sm8350-common: Drop unused libgui_vendor
+[33mcb3e685[m sm8350-common: Drop android.software.verified_boot.xml from product
+[33m0625d4f[m Revert "sm6250-common: copy libhidlcache from vndk 29"
+[33m4ab7d2a[m sm8350-common: Drop system variants of libhidltransport and libhwbinder
+[33m87bb543[m Revert "sm8350-common: build libdrm for qvrservice"
+[33m3976e72[m sm8350-common: Drop unnecessary keylayout
+[33m449ada4[m sm8350-common: Drop no longer existing omx video components
+[33md404367[m sm8350-common: Drop no longer existing GSMA NFC service
+[33md11e95e[m sm8350-common: Drop no longer existing BluetoothQti
+[33m5abe692[m sm8350-common: Don't build textclassifier
+[33m794251e[m sm8350-common: Drop unused servicetracker products
+[33ma817bae[m sm8350-common: Drop unused aosp RCS packages
+[33mace5f39[m Revert "sm6250-common: include AVB public keys"
+[33mc77ac65[m sm8350-common: Add comments on inherited products
+[33mec751c4[m sm8350-common: Decommonize power_profile.xml
+[33mc2e07e6[m sm8350-common: Decommonize some overlays
+[33md656955[m sm8350-common: Decommonize some audio configs
+[33m207f94c[m sm8350-common: Decommonize dtbo and userdata partition sizes
+[33m8ba658f[m sm8350-common: Decommonize kernel config
+[33mf20abcc[m sm8350-common: Decommonize powershare package
+[33m6d1aa31[m sm8350-common: Decommonize fod package
+[33m2845a96[m sm8350-common: Add support for renoir
+[33m9a07f78[m sm8350-common: Add support for odin
+[33mc56edd1[m sm8350-common: Add support for lisa
+[33m9f2b9bb[m sm8350-common: Add support for haydn
+[33ma7baa93[m sm8350-common: Fix curtana leftover on vendor header
+[33m788e6f1[m sm8350-common: remove extra spaces
+[33ma745051[m sm8350-common: use TARGET_COPY_OUT_SYSTEM
+[33m07f4dd7[m sm8350-common: proprietary-files: remove prebuilt renderscript hal
+[33m1bb5d22[m sm8350-common: manifests: remove prebuilt ir hal manifest
+[33mde5cd17[m sm8350-common: proprietary-files: remove prebuilt consumerir hal
+[33m40c501c[m sm8350-common: remove duplicate build of libqti_vndfwk_detect.vendor
+[33m9fae36b[m sm8350-common: do not build gralloc.default already built by base_vendor.mk
+[33md721232[m sm8350-common: proprietary-files: remove unused libgui_vendor
+[33m78c5b48[m sm8350-common: manifests: remove prebuilt health hal manifest
+[33mdc8d615[m sm8350-common: proprietary-files: remove prebuilt health@2.0 hal
+[33m730efbe[m sm8350-common: proprietary-files: remove prebuilt sound trigger configs
+[33mc44e15b[m sm8350-common: proprietary-files: remove prebuilt media codecs configs
+[33m1d95810[m sm8350-common: update media configs
+[33m1dbfd82[m sm8350-common: proprietary-files: remove prebuilt google media configs
+[33m0efa46b[m sm8350-common: copy more google media configs to vendor
+[33m7d91a29[m sm8350-common: manifests: remove prebuilt boot hal manifest
+[33madc4f32[m sm8350-common: manifests: remove prebuilt drm clearkey manifest
+[33m80f3650[m sm8350-common: manifests: remove prebuilt thermal@2.0 manifest
+[33m4a6e23d[m sm8350-common: proprietary-files: remove prebuilt thermal@2.0 service
+[33m5e0bd7f[m sm8350-common: build qti thermal@2.0 service
+[33mc989d48[m sm8350-common: proprietary-files: remove prebuilt qti telephony packages that are already built
+[33m464ba2c[m sm8350-common: proprietary-files: remove prebuilt service tracker interface libs
+[33m1ba97c2[m sm8350-common: proprietary-files: remove prebuilt vndfwk_detect
+[33mf1e6a25[m sm8350-common: Build framework detect modules
+[33mfe0feed[m sm8350-common: proprietary-files: remove prebuilt libhidltransport and libhwbinder
+[33m68a484f[m sm8350-common: proprietary-files: remove already built clearkey drm service
+[33m33f58a4[m sm8350-common: proprietary-files: remove stagefright packages
+[33meb8da7c[m sm8350-common: proprietary-files: remove packages built by default
+[33m66bd8b7[m sm8350-common: Correctly remove FM Radio
+[33m15816b7[m sm8350-common: sepolicy: allow sensors to connect to audio hal socket
+[33mef5a227[m sm8350-common: proprietary-files: move soundfx to section
+[33mcae5351[m sm8350-common: proprietary-files: move adsp modules to section
+[33m13811b6[m sm8350-common: proprietary-files: remove adsp tests
+[33mc9a3b5a[m sm8350-common: proprietary-files: remove odm ueventd
+[33mebbecd7[m sm8350-common: proprietary-files: remove diag bins
+[33m98bf8ea[m sm8350-common: sepolicy: allow ir hal to access spi ir device
+[33m7e0bc34[m sm8350-common: sepolicy: allow vendor sensors to access panel backlight
+[33m97b3076[m sm8350-common: sepolicy: add rules for elliptic proximity
+[33mc530642[m sm8350-common: remove unused audio and bluetooth props that fail to be set by vendor
+[33m70a8698[m sm8350-common: remove duplicated BOARD_INCLUDE_DTB_IN_BOOTIMG
+[33mbf65261[m sm8350-common: switch to enforcing selinux
+[33m2f5f3de[m sm8350-common: sepolicy: allow inscreen fingerprint hal to send command to xiaomi hwservice
+[33m237a992[m sm8350-common: sepolicy: allow perf hal to access fingerprint daemon process
+[33m3930cb8[m sm8350-common: sepolicy: let fingerprint daemon create netlink socket
+[33m4b97aae[m sm8350-common: sepolicy: let fingerprint daemon find perf hwservice
+[33m8d97424[m sm8350-common: sepolicy: label other vendor fingerprint daemon props
+[33m0bee695[m sm8350-common: sepolicy: label other vendor fingerprint data files
+[33mb4c1162[m sm8350-common: sepolicy: let fingerprint daemon add xiaomi fingerprint services
+[33mb0335f1[m sm8350-common: sepolicy: let init start mi_thermald
+[33mb255c00[m sm8350-common: sepolicy: label thermal daemon
+[33m4bfef54[m sm8350-common: sepolicy: label fingerprint daemon
+[33mda27721[m sm8350-common: sepolicy: allow camera hal to access persist camera data
+[33m59d1e49[m sm8350-common: sepolicy: allow camera hal to access camera sensor props
+[33m08e1ef9[m sm8350-common: sepolicy: label smp2p wakeup node
+[33m9da4665[m sm8350-common: sepolicy: properly generate contexts for wakeup directories
+[33m6baf396[m sm8350-common: sepolicy: let bootctl hal access uefi block device
+[33m06f7e73[m sm8350-common: sepolicy: label aidl vibrator service
+[33m17d09b7[m sm8350-common: let init do read ahead configuration
+[33m2ce0cf9[m sm8350-common: proprietary-files: remove checknv service
+[33m10ba6a4[m sm8350-common: sepolicy: let fingerprint daemon access input devices
+[33m8c76e46[m sm8350-common: sepolicy: let battery secret read kmsg device
+[33m234966a[m sm8350-common: sepolicy: let qti init shell access page cluster nodes
+[33m1648297[m sm8350-common: sepolicy: label fingerprint props
+[33m75271d3[m sm8350-common: sepolicy: add title to spu prop in property contexts
+[33m24a120d[m sm8350-common: sepolicy: let tee setattr on bsg device
+[33m637d08c[m sm8350-common: sepolicy: label spi wakeup node
+[33m1c4813c[m sm8350-common: sepolicy: let fingerprint daemon register fingerprint hal
+[33m0f30a32[m sm8350-common: sepolicy: let mi_thermald create thermal_data_file files
+[33m17b2e1a[m sm8350-common: sepolicy: label all wakeup dirs for msm codecs
+[33m592d149[m sm8350-common: sepolicy: remove nonexistent type
+[33m8b5143c[m sm8350-common: sepolicy: label wakeup nodes
+[33m56d9f69[m sm8350-common: sepolicy: allow spodaemon to access spuari status prop
+[33mcd0e543[m sm8350-common: sepolicy: allow perf hal to access audio hal process
+[33m54c7450[m sm8350-common: sepolicy: allow wifi hal to insert kernel modules
+[33m575c946[m sm8350-common: sepolicy: allow fingerprint daemon access to fingerprint vendor data files
+[33m2ae9ac7[m sm8350-common: sepolicy: allow nfc hal to create vendor nfc data directory and files
+[33m0752650[m sm8350-common: sepolicy: allow fingerprint daemon access to goodix fingerprint device
+[33m7213c14[m sm8350-common: sepolicy: allow fingerprint daemon access to tee device
+[33m95a756f[m sm8350-common: sepolicy: let fingerprint daemon and tee access goodix calibration data
+[33m1c8a7c7[m sm8350-common: sepolicy: let audio hal set vendor audio props
+[33m61d11a6[m sm8350-common: sepolicy: add powershare rules
+[33md450e59[m sm8350-common: proprietary-files: remove xiaomi dumpstate service
+[33m1c85821[m sm8350-common: manifests: remove xiaomi dumpstate service
+[33md0f358d[m sm8350-common: sepolicy: add mi_thermald rules
+[33mbb900f5[m sm8350-common: proprietary-files: remove workload classifier
+[33madb19d3[m sm8350-common: proprietary-files: add system qti whitelist
+[33m512a09c[m sm8350-common: powershare: remove dependency on hidltransport and hwbinder
+[33m3154e92[m sm8350-common: sepolicy: label powershare hal
+[33m57a415f[m sm8350-common: build powershare hal
+[33mf36968e[m sm8350-common: implement powershare hal
+[33ma7efe9f[m sm8350-common: rootdir: remove cpu 7 from foreground tasks
+[33m12fac4c[m sm8350-common: manifests: add back xiaomi hals
+[33m4750c43[m sm8350-common: proprietary-files: add back mtdservice interface library needed for secure element
+[33mf15980f[m sm8350-common: proprietary-files: add back 32bit camera lib
+[33mcc98464[m sm8350-common: fod: remove fod hbm on handling
+[33m10db1dd[m sm8350-common: fod: add thread listening for fod_ui sysfs event
+[33m5122e1b[m sm8350-common: proprietary-files: remove 32bit fingerprint lib
+[33mb839f2f[m sm8350-common: proprietary-files: remove 32bit camera libs
+[33ma2ab26b[m sm8350-common: proprietary-files: remove qualcomm fingerprint app
+[33m995d2b5[m sm8350-common: proprietary-files: remove xiaomi hals
+[33me43ea9a[m sm8350-common: manifests: remove xiaomi hals
+[33m52fde07[m sm8350-common: rootdir: do not touch sleep disabled
+[33mb160929[m sm8350-common: do not touch sleep disabled
+[33mf082644[m sm8350-common: manifests: declare renderscript hal
+[33m437cbec[m sm8350-common: allow com.android.camera to access aux cameras
+[33m5c54c35[m sm8350-common: overlay-lineage: support screen-off fod
+[33m85b28aa[m sm8350-common: overlay-lineage: front fingerprint
+[33m2fc89c2[m sm8350-common: rootdir: handle ffs mtp
+[33mb7bca78[m sm8350-common: sensors: standardize xiaomi pickup sensor
+[33mb6d092b[m sm8350-common: proprietary-files: remove trusted ui hals
+[33m685265b[m sm8350-common: manifests: remove trusted ui hals
+[33m0711ff7[m sm8350-common: build custom sensors multihal
+[33m9440ae2[m sm8350-common: proprietary-files: remove prebuilt sensor libraries
+[33m840e1b9[m sm8350-common: manifests: remove qcom sensors calibrate hal
+[33mc475166[m sm8350-common: manifests: remove xiaomi cit sensor hal
+[33m4dcba54[m sm8350-common: sepolicy: label sensors multihal
+[33m5bb79e2[m sm8350-common: sensors: avoid target name conflicts
+[33m7c06a60[m sm8350-common: import 2.X sensors hal proxy
+[33mdad2cbe[m sm8350-common: import 2.1 sensors multihal
+[33m2584dd5[m sm8350-common: pulse doze on pickup
+[33md8ae45b[m sm8350-common: proprietary-files: remove cnss_diag
+[33me040d91[m sm8350-common: proprietary-files: remove fstman
+[33mdeb11f4[m sm8350-common: manifests: remove fstman
+[33m72fd25c[m sm8350-common: remove ssr restart level prop
+[33ma1693c1[m sm8350-common: rootdir: chown double_tap node
+[33m8e9ff9f[m sm8350-common: proprietary-files: remove ssr setup
+[33m525d710[m sm8350-common: remove module loading from 5.4 gki directory
+[33m30ddf5a[m sm8350-common: rootdir: cleanup
+[33m3cd3e1e[m sm8350-common: set props that were set by init scripts
+[33m35c5f18[m sm8350-common: manifests: remove factory hal
+[33m57fee05[m sm8350-common: fod: remove unecessary chmods
+[33mba78bdb[m sm8350-common: remove touchfeature manifest entries
+[33m289b420[m sm8350-common: proprietary-files: remove unused binary blobs
+[33m1ebdea5[m sm8350-common: proprietary-files: remove prebuilt vendor_modprobe.sh
+[33m54a3a8b[m sm8350-common: proprietary-files: remove shima media configs
+[33m9b901a0[m sm8350-common: remove touchfeature props
+[33m0003864[m sm8350-common: remove display feature props
+[33m69e2c6c[m sm8350-common: proprietary-files: remove deprecated mius proximity, 32bit sensor hals, touch detect hal
+[33m514e525[m sm8350-common: remove touch detect module from sensor hals list
+[33mc0091a3[m sm8350-common: import hals.conf
+[33mcfc343a[m sm8350-common: proprietary-files: remove prebuilt hals.conf
+[33mb8b56d3[m sm8350-common: remove fts exception from vendor modprobe
+[33mecae802[m sm8350-common: proprietary-files: remove xiaomi touchfeature service
+[33m94413e2[m sm8350-common: remove xiaomi touch from modules.load
+[33m674a05a[m sm8350-common: remove INetPerfTuner interface
+[33m536b929[m sm8350-common: set props that were set by init scripts
+[33mfdc8780[m sm8350-common: rootdir: update
+[33me2ff472[m sm8350-common: proprietary-files: remove prebuilt ueventd.rc
+[33m9397804[m sm8350-common: proprietary-files: remove prebuilt init scripts
+[33m03d2373[m sm8350-common: sepolicy: allow qti power hal to write to double tap node
+[33m36d413f[m sm8350-common: specify double tap to wake node
+[33m9ae9bdc[m sm8350-common: build qti power hal
+[33m4887ae5[m sm8350-common: manifests: remove prebuilt power hal
+[33mb1e3b0a[m sm8350-common: proprietary-files: remove prebuilt power hal
+[33mdf2eaac[m sm8350-common: sepolicy: remove power hal
+[33m620edf3[m sm8350-common: remove power hal
+[33m975bb6d[m sm8350-common: overlay-lineage: specify keyguard min bottom margin
+[33m176bd2e[m sm8350-common: include lineage framework compatibility matrix xml
+[33m001268b[m sm8350-common: add inscreen fingerprint hal to framework manifest
+[33m2752dc6[m sm8350-common: overlay-lineage: use white fingerprint color
+[33m3e8e9f9[m sm8350-common: implement inscreen fingerprint hal
+[33m599b5f8[m sm6150-common: Handle screen off FOD
+[33maba98c9[m sm8350-common: fod: Implement handleAcquire()
+[33m5d0056c[m sm8350-common: sepolicy: add inscreen fingerprint rules
+[33mb66f137[m sm8350-common: build inscreen fingerprint hal
+[33mf7d1849[m sm8350-common: implement inscreen fingerprint hal
+[33m5243692[m sm8350-common: overlay: remove light capabilities
+[33mac47c0b[m sm8350-common: pin blobs from tag matching display hal
+[33mbcab473[m sm8350-common: remove xiaomi vibrator feature manifest
+[33m237d3e4[m sm8350-common: add prop previously set based on sku in display sh file
+[33m9593827[m sm8350-common: build open source display hal libs
+[33m571eb7f[m sm8350-common: proprietary-files: remove open source display hal blobs and organize the rest
+[33md174b49[m sm8350-common: allow overriding volte, vt and wfc
+[33m324606f[m sm8350-common: overlay: configure always on display
+[33mcadc744[m sm8350-common: lower number of media volume steps
+[33m7371c44[m sm8350-common: proprietary-files: remove qualcomm vr service
+[33m47fd72e[m sm8350-common: proprietary-files: remove exfat init file
+[33m48c1b8b[m sm8350-common: proprietary-files: remove unused acdbdata
+[33m4dc0472[m sm8350-common: proprietary-files: remove mkshrc
+[33m8d84947[m sm8350-common: proprietary-files: remove unused knock config
+[33mec80560[m sm8350-common: remove light hal
+[33mcae4025[m sm8350-common: proprietary-files: remove prebuilt light hal
+[33m3aea82e[m sm8350-common: remove light hal manifest
+[33m2ae0bc2[m sm8350-common: remove unused keylayout and idc files
+[33m87bf051[m sm8350-common: proprietary-files: remove prebuilt prop files
+[33mfaa7d02[m sm8350-common: add vendor surface flinger props
+[33m7f8399e[m sm8350-common: add system_ext prop list
+[33md98f1cb[m sm8350-common: remove product prop list
+[33m0bae9fb[m sm8350-common: remove test apps from auxiliary camera package list
+[33m8cd9540[m sm8350-common: update system props
+[33m20e5e95[m sm8350-common: remove unused vendor props
+[33ma63ec23[m sm8350-common: update vendor props
+[33mab5c049[m sm8350-common: inherit 6GB RAM makefile
+[33m0b7df4e[m sm8350-common: audio: remove unsupported configuration options
+[33m3c1a378[m sm8350-common: audio: use mi audio policy configuration
+[33m2ddf492[m sm8350-common: remove usb service manifest
+[33m9c05328[m sm8350-common: build qti usb service
+[33m40a255c[m Revert "DNM: sm8350-common: do not build usb service"
+[33m59b2d17[m sm8350-common: proprietary-files: remove prebuilt usb service
+[33mbbe18b5[m Revert "sm8350-common: use aosp audio policy configuration"
+[33m12d90e3[m sm8350-common: audio: remove unused wcd937x config
+[33mf6bdf3e[m sm8350-common: use aosp audio policy configuration
+[33m3e12d1d[m sm8350-common: proprietary-files: remove prebuilt default usb audio hal
+[33mcd44449[m sm8350-common: proprietary-files: remove prebuilt excluded input devices list
+[33me8980a3[m sm8350-common: copy excluded input devices list
+[33mf61d3c2[m sm8350-common: build custom qti vibrator hal
+[33m5f91e23[m sm8350-common: vibrator: add support for aw8697_haptic input device
+[33m67fe0e2[m sm8350-common: vibrator: remove unused led vibrator device support
+[33m1e781f9[m sm8350-common: vibrator: remove unused effect stream handling
+[33m002ef25[m sm8350-common: vibrator: avoid target name conflicts
+[33m5cf69af[m sm8350-common: import qti vibrator hal
+[33m9d51698[m sm8350-common: proprietary-files: remove prebuilt vibrator services
+[33md4b6ece[m sm8350-common: remove embmss leftovers
+[33m3f8b2f5[m sm8350-common: proprietary-files: remove wifi supplicant, hostapd, wifi learner, xiaomi wifi cit
+[33m1d0e2e3[m sm8350-common: update wifi configs
+[33m69272b9[m sm8350-common: use the generated wlan module name
+[33m765745e[m sm8350-common: proprietary-files: remove qualcomm color calibration app
+[33m12e477b[m sm8350-common: proprietary-files: remove qualcomm performance mode app
+[33m4837a34[m sm8350-common: decomonize status bar and rounded corner size
+[33m8d9953a[m sm8350-common: proprietary-files: remove mi_ric and mi_ic services
+[33mc693aff[m sm8350-common: build packages needed for secure element service
+[33m8dd27f5[m sm8350-common: proprietary-files: remove prebuilt nfc services
+[33m18526bf[m sm8350-common: build nfc from source
+[33m47377b4[m sm8350-common: build libdrm for qvrservice
+[33m0ecb5b2[m sm8350-common: create vm-system mount directory
+[33m0b2a759[m sm8350-common: split mount point directories additions
+[33ma42ce87[m sm8350-common: build 32bit libavservices_minijail for qvrservice
+[33m14dbfbd[m sm8350-common: import framework manifest
+[33m6b27fff[m sm8350-common: build android.hardware.thermal for qspmsvc
+[33m451a761[m sm8350-common: proprietary-files: remove avservices
+[33m89faa71[m sm8350-common: proprietary-files: remove embms
+[33mf336cc1[m sm8350-common: proprietary-files: remove prebuilt apns
+[33m33f39e2[m sm8350-common: update device compatibility matrix
+[33m0c9c624[m sm8350-common: add xiaomi citsensorservice to framework compatibility matrix
+[33mba148e7[m sm8350-common: remove duplicated manifest definitions
+[33m55bbce9[m sm8350-common: import framework compatibility matrix
+[33m11802cc[m sm8350-common: proprietary-files: remove big mimoji models
+[33ma7cd7c7[m sm8350-common: proprietary-files: remove bad apks and xmls
+[33m2e5bb90[m sm8350-common: overlay: use codeaurora ims package for rcs
+[33m9c85d12[m sm8350-common: overlay: add wifi_slave to list of network attributes
+[33m17ff488[m sm8350-common: proprietary-files: remove prebuilt manifests
+[33m284c567[m sm8350-common: proprietary-files: remove two art libraries
+[33m124a8f7[m sm8350-common: proprietary-files: remove prebuilt carrierconfig
+[33m876a687[m sm8350-common: proprietary-files: remove prebuilt permissions
+[33mfd488da[m sm8350-common: proprietary-files: remove prebuilt libvolumelistener
+[33mbee729d[m sm8350-common: proprietary-files: remove prebuilt bluetooth audio libraries
+[33mca45f42[m sm8350-common: proprietary-files: remove prebuilt media profiles configs
+[33m7fd1d85[m sm8350-common: proprietary-files: remove prebuilt product ui sounds
+[33m75df66c[m sm8350-common: proprietary-files: remove prebuilt audio configs
+[33m71ed142[m sm8350-common: proprietary-files: remove prebuilt vndservicemanager
+[33m47937c3[m sm8350-common: proprietary-files: remove prebuilt checkpoint_gc
+[33m9b1115d[m sm8350-common: proprietary-files: remove prebuilt kernel modules
+[33mb76511c[m sm8350-common: proprietary-files: remove prebuilt bootctrl hal
+[33mc16f183[m sm8350-common: proprietary-files: pin pureShot_parameter.xml
+[33m77bdfaf[m sm8350-common: proprietary-files: fix vendor.qti.hardware.data.connection xml version
+[33m05e5e53[m sm8350-common: proprietary-files: remove NOTICE, passwd, group, fs_config_files, fs_config_dirs
+[33mfd4b5d7[m sm8350-common: proprietary-files: remove sepolicy
+[33mb3bcb0e[m sm8350-common: proprietary-files: declare jars and apks as modules
+[33mc8736fe[m sm8350-common: proprietary-files: remove vdex and odex files
+[33m4bb05cd[m sm8350-common: add all possible blobs
+[33md53d9d8[m sm8350-common: add prebuilt hidl interfaces
+[33mb82a852[m sm8350-common: import manifests
+[33ma3ce4eb[m DNM: sm8350-common: do not build usb service
+[33m16a3c0c[m overlay: CarrierConfig: update entries
+[33m0f26eca[m sm8350-common: remove fingerprint service
+[33md5c43a8[m DNM: sm8350-common: do not build wfdcommon
+[33m06b1cc2[m DNM: sm8350-common: do not build display mapper
+[33m2349907[m DNM: sm8350-common: do not build display allocator
+[33m842d1c9[m DNM: sm8350-common: do not build livedisplay service
+[33m895eb79[m DNM: sm8350-common: do not build power service
+[33m00de2ee[m DNM: sm8350-common: do not build light service
+[33mf312f2c[m sm8350-common: remove graphics composer service
+[33m8821eba[m sm8350-common: add modules load list
+[33m9238d96[m sm8350-common: enable GKI audio
+[33m8e0903b[m sm8350-common: copy permissions
+[33m236e8e4[m sm8350-common: update audio configs
+[33m7157de1[m sm8350-common: update media profiles
+[33m393c03d[m sm8350-common: sepolicy: label mfp-daemon
+[33m96ae3c5[m sm8350-common: sepolicy: label mi_thermald
+[33mcd179f7[m sm8350-common: remove legacy drm service
+[33m9f3fb50[m sm8350-common: build vndservicemanager
+[33m3291333[m sm8350-common: place fstab in vendor, vendor ramdisk and recovery
+[33m1f467ad[m sm8350-common: update fstab
+[33m637feb9[m sm8350-common: include gsi keys
+[33mab1c9e4[m sm8350-common: inherit emulated storage
+[33m4bb8fec[m sm8350-common: implement virtual A/B
+[33m7694cc0[m sm8350-common: gpt-utils: add system_ext and product to AB_PTN_LIST
+[33mccf266f[m sm8350-common: gpt-utils: add vbmeta_system to PTN_SWAP_LIST
+[33m583c0f7[m sm8350-common: gpt-utils: add featenabler to PTN_SWAP_LIST
+[33m18a612b[m sm8350-common: import bootctrl hal and gpt-utils
+[33ma0ffc59[m sm8350-common: update shipping api level
+[33m9a2df9c[m sm8350-common: include system_ext in vbmeta system
+[33mc28a95c[m sm8350-common: update recovery configuration
+[33mf6036b3[m sm8350-common: update partition configuration
+[33mb1e1a40[m sm8350-common: fix extract utils path
+[33m8bac7cd[m sm8350-common: update kernel configuration
+[33madd3c80[m sm8350-common: update security patch
+[33m9b998e9[m sm8350-common: switch to kryo385 runtime cpu variant
+[33ma43e9b4[m sm8350-common: remove sm6250 blobs
+[33m6973392[m sm8350-common: remove miatoll specific hacks
+[33md478fd5[m sm8350-common: atoll -> lahaina
+[33m1649671[m sm6250-common: partial conversion to sm8350
+[33m554eb8b[m sm6250-common: remove manifest entries specified in fragments
+[33mf15f33a[m [BLOBS] sm6250-common: add missing misys manifests
+[33maf65648[m sm6250-common: remove qcom.fmradio boot jar
+[33mc11fbf1[m sm6250-common: Drop sepolicy version from manifest
+[33mf253f20[m sm6250-common: reserve less system/product space for gapps builds
+[33m0080dbd[m sm6250-common: reserve some sapce for system_ext
+[33mdca3045[m sm6250-common: light: Remove backlight support in case of hwcomposer
+[33ma24f819[m sm6250-common: rootdir: update configs from curtana RKQ1.200826.00
+[33md5665da[m sm6250-common: update props from curtana RKQ1.200826.002
+[33me8efc48[m sm6250-common: wifi: update wcnss config from curtana RKQ1.200826.002
+[33m5ba1d54[m sm6250-common: configs: update ueventd.rc from curtana RKQ1.200826.002
+[33mff373ea[m sm6250-common: wifi: don't enable use_p2p_group_interface=1 driver param
+[33ma7d8ba3[m sm6250-common: rootdir: update fstab from curtana RKQ1.200826.002
+[33m9282fe7[m sm6250-common: media: update configs from curtana RKQ1.200826.002
+[33m18b8ed5[m sm6250-common: audio: update configs from curtana RKQ1.200826.002
+[33m88a421d[m sm6250-common: rootdir: Enable inline encryption
+[33m02f6317[m sm6250-common: rootdir: remove sensors specific boot up commands from init.qcom.rc
+[33ma7a4a3f[m sm6250-common: sensors: enable multihal 2.0
+[33m1bf142e[m sm6250-common: build vendor version of libavservices_minijail
+[33m72324de[m sm6250-common: Update btconfigstore vintf version to 2.0
+[33m816b531[m sm6250-common: Add vendor.qti.hardware.btconfigstore@2.0 into product package
+[33m0c87c27[m sm6250-common: build vendor.qti.hardware.display.mapper@1.1 interface
+[33m99e4527[m sm6250-common: Remove gnss hidl entries in manifest.xml
+[33m031d33f[m sm6250-common: IRtpservice 3.0
+[33mb4f296a[m sm6250-common: IImsRadio HAL to latest version 1.6
+[33mda74bae[m sm6250-common: add manifest entry for dsp HAL service
+[33m35aea47[m sm6250-common: Move wfdhdcp Crypto & DRM HAL to 1.3
+[33m110ae17[m sm6250-common: Add IImsFactory and uceservice HAL entry
+[33m4bf00b1[m sm6250-common: add IQccvndhal for manifest
+[33m36e14aa[m sm6250-common: Disabling hidl for SCVE and CVP
+[33mf5f45ac[m sm6250-common: Remove VPP service from the device manifest
+[33m02666c4[m sm6250-common: Update QtiRadio version to 2.4
+[33m33d2f15[m sm6250-common: add servicetracker@1.2 interface to build packages
+[33m3b502ed[m Revert "Add servicetracker@1.1 HAL in manifest.xml".
+[33m4d98f16[m sm6250-common: manifest: Deprecate old ANT interface
+[33m41c727d[m sm6250-common: Removed Neural Network interface to move to device fragment
+[33md96b060[m Revert "sm6250-common: Get rid of megvii dependencies in camera.qcom.so"
+[33m57ef628[m [BLOBS] sm6250-common: move unlinked blobs under their own section
+[33m1f34864[m Revert "[BLOBS] sm6250-common: remove megface libraries"
+[33me9ac9c8[m [BLOBS] sm6250-common: unpin nubia blobs
+[33m235325a[m [BLOBS] sm6250-common: update blobs from curtana RKQ1.200826.002
+[33m8f544cf[m [BLOBS] sm6250-common: setup initial sections structure
+[33m7cfdc05[m [BLOBS] sm6250-common: kill audiohalext
+[33m1a45b00[m [BLOBS] sm6250-common: update widevine blobs from NX627J RKQ1.200826.002
+[33m8eb1fc0[m [BLOBS] sm6250-common: kang soundtrigger hal from NX627J RKQ1.200826.002
+[33m1f17d77[m [BLOBS] sm6250-common: override camera.provider@2.4-legacy
+[33m83f3d63[m sm6250-common: build vendor.qti.hardware.display.mapper@2.0.vendor
+[33m85e12fb[m [BLOBS] sm6250-common: update adreno blobs from NX627J RKQ1.200826.002
+[33mfa1f369[m [BLOBS] sm6250-common: kang SDM blobs from NX627J RKQ1.200826.002
+[33m183e7ac[m sm6250-common: create EGL symlinks
+[33mee4d236[m [BLOBS] sm6250-common: remove blobs we can symlink from prebuilts
+[33m25f9a71[m sm6250-common: add new surfaceflinger flags
+[33mbdd5935[m sm6250-common: audio: add compress recording configurations
+[33mf50bff2[m sm6250-common: enable TARGET_USE_QTI_BT_STACK
+[33me26b98d[m sm6250-common: switch to lineage patchelf
+[33m17e2b77[m sm6250-common: configure livedisplay
+[33m7defa6b[m sm6250-common: TetheringOverlay: Change wifi tether regex
+[33mac9469a[m sm6250-common: rro_overlays: Redo TetheringOverlay's blueprint
+[33m8ef6293[m sm6250-common: Add Tethering Config
+[33m66f8d29[m sm6250-common: Wifi: Default compile of WPA based module
+[33m2b220fa[m sm6250-common: Enable RRO overlays for lineage-sdk and Snap
+[33m5663d13[m sm6250-common: Split component-overrides to support pure aosp/qti bt stack
+[33ma6db72a[m sm6250-common: Use component-override to configure Bluetooth
+[33m98c9d2a[m sm6250-common: overlay: Add pinned files from stock
+[33mb8e451a[m sm6250-common: overlay: Pin standard SystemUI instead of Google's
+[33m590ca15[m sm6250-common: overlay: Update in pinned files.
+[33m3b8553c[m sm6250-common: overlay: Update config overlay with new SystemUI location
+[33mb69a68b[m sm6250-common: overlay: Update paths to the new ART APEX.
+[33mac2981b[m sm6250-common: overlay: sync pinner service configs from crosshatch
+[33m6d27522[m [BLOBS] sm6250-common: remove prebuilt libplatformconfig
+[33m2e458c4[m Revert "sm6250-common: media: Tune perf xml"
+[33m338fe2a[m [BLOBS] sm6250-common: update widevine blobs from davinci RKQ1.200826.002
+[33m4d07a67[m sm6250-common: sepolicy: label fingerprint service
+[33m6a2025c[m sm6250-common: build our fingeprint service
+[33m173559b[m sm6250-common: fingerprint: Clean up duplicated includes
+[33mfa54122[m sm6250-common: fingerprint: Don't set ro.boot.fpsensor
+[33m24cdd87[m sm6250-common: fingerprint: Brackets should be here
+[33mf5a6695[m sm6250-common: fingerprint: update for xiaomi sm6250
+[33m2f0646f[m sm6250-common: import fingeprint service from xiaomi msm8998 tree
+[33m711bdb7[m [BLOBS] sm6250-common: remove prebuilt fingerprint service
+[33m7e6a71b[m sm6250-common: Use non-conflicting consumerir HAL name
+[33m27e4f91[m sm6250-common: build IR HAL from source
+[33me6d1598[m [BLOBS] sm6250-common: remove prebuilt IR blobs
+[33m140603d[m sm6250-common: build servicetracker interfaces from source
+[33m161d5d1[m [BLOBS] sm6250-common: remove prebuilt servicetracker interfaces
+[33mdcee65c[m sm6250-common: build libsensorndkbridge from source
+[33m5868995[m [BLOBS] sm6250-common: remove prebuilt libsensorndkbridge
+[33m32e801f[m [BLOBS] sm6250-common: remove prebuilt libhwminijail
+[33m64ddfd5[m [BLOBS] sm6250-common: remove prebuilt compatibility_matrix
+[33mc2b960e[m [BLOBS] sm6250-common: remove prebuilt libvndfwk_detect_jni.qti
+[33m873b400[m sm6250-common: build libqti_vndfwk_detect from source
+[33m3309cc1[m [BLOBS] sm6250-common: remove prebuilt libqti_vndfwk_detect
+[33m126c94e[m sm6250-common: Convert libhidl to blueprint
+[33mbbd5a9e[m [BLOBS] sm6250-common: remove prebuilt android.hidl.base@1.0
+[33mcff7220[m sm6250-common: audio: correct routing order for voip output
+[33m9c283de[m sm6250-common: remove unused audio configs
+[33md7b3bcf[m [BLOBS] sm6250-common: remove audio hal override
+[33m79c63fe[m sm6250-common: Enable fluence for voicerec and audiorec
+[33m85d8bd5[m sm6250-common: audio: cleanup mixer paths
+[33m0c96b96[m sm6250-common: audio: add mixer controls for lito and atoll display ports
+[33m98c738a[m sm6250-common: Remove lmkd properties to enable new lmkd kill strategy
+[33m1c9578a[m sm6250-common: Set lmkd configuration properties
+[33m1329d72[m sm6250-common: set higher priority to c2 than OMX
+[33ma0583d7[m sm6250-common: build camera stack from source
+[33m9aa4dba[m [BLOBS] sm6250-common: remove prebuilt camera blobs
+[33m9e10256[m sm6250-common: build ril stack from source
+[33mea7ab01[m [BLOBS] sm6250-common: remove prebuilt ril blobs
+[33mb96573d[m sm6250-common: build ipacm from source
+[33m03384c8[m [BLOBS] sm6250-common: remove prebuilt ipacm blobs
+[33m9773f45[m sm6250-common: Remove android.hardware.usb from the device manifest.
+[33md19c6bc[m sm6250-common: build usb hal from source
+[33ma43677e[m [BLOBS] sm6250-common: remove prebuilt usb hal
+[33m1b95f54[m sm6250-common: media: finetune performance xml
+[33mdc85230[m sm6250-common: media: finetune performance xml
+[33mf0c9b82[m sm6250-common: media: Update perf-points for sw encoder and decoder
+[33m4c06979[m Revert "sm6250-common: media: Update codec performance points"
+[33maf8c173[m sm6250-common: media: remove divx/xvid support from swcodecs
+[33m7434303[m sm6250-common: build media stack from source
+[33m50ea7a5[m [BLOBS] sm6250-common: remove prebuilt media blobs
+[33m50a6e2c[m sm6250-common: import media configs to device tree
+[33m37cb7fa[m [BLOBS] sm6250-common: remove device-specific media configs from prebuilts
+[33m4f84ad1[m sm6250-common: copy google media codecs from frameworks/av
+[33mf7c4d0d[m [BLOBS] sm6250-common: remove prebuilt google media codecs
+[33m0b3f00e[m sm6250-common: build renderscript hal from source
+[33m206703d[m [BLOBS] sm6250-common: remove prebuilt renderscript hal
+[33m65208fe[m sm6250-common: rootdir: override hwcomposer service
+[33mc77d151[m [BLOBS] sm6250-common: restore libdisplayconfig for WFD
+[33mf3a6d56[m sm6250-common: Remove display components from manifest
+[33m228833c[m sm6250-common: Remove allocator and mapper from manifest
+[33mb1112f9[m sm6250-common: Prepare for LA.UM.9.1 display HAL
+[33mc67aef4[m sm6250-common: build display stack from source
+[33m79edc1b[m [BLOBS] sm6250-common: remove prebuilt display stack
+[33mc615731[m sm6250-common: adjust thread count and cpuset after setup wizard
+[33m9d26cd3[m sm6250-common: Set lmkd.reinit property from vendor init
+[33m42402b7[m sm6250-common: rootdir: don't enable a2dp offload from rootdir
+[33mb8dbd31[m sm6250-common: audio: offload 24 bits playback supports mp3/aac format
+[33m6e3ae51[m sm6250-common: audio: update audio_io_policy for VoIP
+[33m991d688[m sm6250-common: fix hw_random permissions
+[33m59f9d88[m sm6250-common: enable cortex-A76
+[33mcd2c061[m sm6250-common: enable fluence mode
+[33m39f2077[m sm6250-common: configs: Remove TelePhony Rx from primary input
+[33m6f56a15[m sm6250-common: Don't advertise vorbis offloading support
+[33m241bbfe[m sm6250-common: audio: Remove 2 instance support for "primary input"
+[33m84b0856[m sm6250-common: audio: Add fast input profile for the record concurrency
+[33m08fb70c[m sm6250-common: Use EXPENSIVE_RENDERING power hint for blurs
+[33mb0dea6e[m sm6250-common: Enable compositor background blurring
+[33m79b05ee[m [BLOBS] sm6250-common: override liba2dpoffload as well
+[33m0380851[m sm6250-common: add system_ext partition flags
+[33mba201b9[m sm6250-common: Update fstab with system_ext partition.
+[33md332175[m sm6250-common: remove unused audio configs
+[33mc14c62b[m [BLOBS] sm6250-common: override audio hal for now
+[33mfdc0abe[m sm6250-common: re-add audiohalext blobs
+[33m8262489[m sm6250-common: rename property violating sepolicy
+[33mb66f59f[m sm6250-common: Enable MPEG-H decoder property
+[33mcb2d282[m sm6250-common: audio: add support of BT SCO mic for record_24 profile
+[33m11fb3c5[m sm6250-common: audio: Add backend config for handset TMU operator device
+[33m92b6d08[m sm6250-common: audio: Add DEFAULT adm_config profile
+[33m33aa174[m sm6250-common: audio: Add mixer controls for call screen support
+[33md0af0fb[m sm6250-common: audio: Add built-in/Back mic to primary input sources
+[33mbe8bff9[m sm6250-common: audio: Add sound trigger implementer version
+[33mc40a268[m sm6250-common: audio: set correct backend name for dual mic device
+[33mc00edc3[m sm6250-common: audio: allocate dedicated pcm node for in call recording
+[33mbc47a90[m sm6250-common: add device-specific audio configs to device tree
+[33mec357a7[m [BLOBS] sm6250-common: remove device-specific audio configs from vendor
+[33m5202ad2[m sm6250-common: copy audiopolicy configs from frameworks/av
+[33m86b19f1[m [BLOBS] sm6250-common: remove aosp audiopolicy configs from prebuilts
+[33m3529406[m sm6250-common: sepolicy: update for qcom upstream
+[33m0570173[m sm6250-common: Switch to Audio HAL V6
+[33mc034f3b[m sm6250-common: build audio stack from source
+[33m7383b2b[m [BLOBS] sm6250-common: remove prebuilt audio blobs
+[33mc8e91af[m sm6250-common: Remove DRM Widevine and Clearkey HALs
+[33m6420e7a[m sm6250-common: uprev clearkey hal to 1.3
+[33m70a02c0[m sm6250-common: compile drm@1.0 from source
+[33m6ae3cb8[m [BLOBS] sm6250-common: remove prebuilt DRM blobs
+[33me2a59ad[m sm6250-common: init.qcom.rc: update audio hal service override as per latest base service definition
+[33me2025cf[m sm6250-common: disable configstore
+[33m9521b1d[m sm6250-common: Remove deprecated android.hardware.thermal@1.0 HAL
+[33m459953e[m [BLOBS] sm6250-common: remove prebuilt thermal blobs
+[33m9fb4f3a[m sm6250-common: set target-level in manifest to 4
+[33mbbaf410[m sm6250-common: build qti health@2.1 hal
+[33m0fa8cf5[m [BLOBS] sm6250-common: remove prebuilt health hal
+[33m5d647e7[m sm6250-common: Disable vibrator HAL interface
+[33m8255190[m sm6250-common: Add WifiOverlay
+[33md795f22[m sm6250-common: Remove wifi related internal overlays
+[33m6a37ae1[m sm6250-common: vibrator: Enable LED based vibrator
+[33m580d07a[m [BLOBS] sm6250-common: remove prebuilt vibrator blobs
+[33m1ea5b09[m sm6250-common: Adapt libinit to Android 11
+[33m2e3dfe8[m sm6250-common: ueventd: Allow system permission for RPS sysfs node
+[33mf020550[m sm6250-common: Add property for timecheck timeout duration.
+[33m5b4e297[m sm6250-common: Define ro.media.recorder-max-base-layer-fps
+[33mc0293ba[m sm6250-common: Enable incremental FS feature.
+[33m6488335[m sm6250-common: NAN: set property 'wifi.aware.interface' to use separate interface
+[33mc08843c[m sm6250-common: Use dex2oat64
+[33m832390a[m sm6250-common: BOARD_CHARGER_ENABLE_SUSPEND becomes ro.charger.enable_suspend
+[33m41641ed[m sm6250-common: sepolicy: fix persist_file neverallow
+[33m60aaa57[m sm6250-common: Switch vintf manifest from copy files to build targets
+[33m53dc9ae[m sm6250-common: Don't use timeservice_app_cert certificate for TimeService app
+[33mf7c8dd0[m sm6250-common: update sepolicy.mk path to point to  vendor sepolicy.mk
+[33m2a49a66[m sm6250-common: configs: Enable Stereo channel support for voip over audio path
+[33m4f5ec3b[m sm6250-common: overlay: add config for biometric sensors
+[33m9c46375[m sm6250-common: Add brightness float values to config file.
+[33m348481a[m sm6250-common: remove prebuilt libstagefright_omx blobs
+[33m2d443ac[m sm6250-common: Remove context hub HAL service from init rc file
+[33m067158a[m sm6250-common: build sensors HAL from source
+[33m9f1a8fd[m [BLOBS] sm6250-common: remove prebuilt sensors HAL
+[33m2ec5d68[m sm6250-common: Add android.software.vulkan.deqp.level, version 2020-03-01
+[33m5d2b6c6[m sm6250-common: Enable BluetoothSar v1.1
+[33mb2c3d64[m sm6250-common: Add translatable="false" tags to ims package overlays
+[33m61394f2[m sm6250-common: Remove old configuration and use new config for MMTEL/RCS
+[33m39e49c4[m sm6250-common: Add AOSP RCS packages
+[33m9cdc81c[m sm6250-common: Remove dead RCS packages
+[33m4f124b3[m [BLOBS] sm6250-common: remove prebuilt vndk blobs
+[33m666e384[m sm6250-common: build clearkey from source
+[33m5f36f8c[m [BLOBS] sm6250-common: remove prebuilt clearkey blobs
+[33m9abdfa8[m sm6250-common: copy libhidlcache from vndk 29
+[33m7b22c4e[m sm6250-common: build libhidltransport and libhwbinder
+[33m5697cf4[m sm6250-common: build libgui_vendor from source
+[33m60001cd[m [BLOBS] sm6250-common: remove prebuilt libgui_vendor
+[33m36a30fd[m sm6250-common: Priv-app permissions changed to log
+[33mb08dbb6[m sm6250-common: wifi: move wpa_supplicant VINTF definition to wpa_supplicant module
+[33m2bd7926[m sm6250-common: Wifi: Remove IWifi hidl entry from manifest.xml
+[33mcebf05c[m sm6250-common: Wifi: Remove hostapd hidl entry from manifest.xml
+[33mb3e6833[m sm6250-common: Enable driver param "no_rrm=1" in wpa_supplicant_overlay.conf
+[33m0812b84[m sm6250-common: wlan: Add only certified configuration methods for wpa_supplicant
+[33m264ba99[m sm6250-common: wifi: move supplicant service init to wpa_supplicant
+[33mb987b28[m sm6250-common: rootdir: load_system_props was deprecated
+[33me5823aa[m sm6250-common: rootdir: remove service for unused wigignpt
+[33m026131b[m sm6250-common: avb: Compile recovery image as a chain partition
+[33mb220c66[m sm6520-common: use BUILD_COPY_HEADERS
+[33m77b2490[m sm6250-common: power: Remove libhwbinder/libhidltransport deps
+[33md821e05[m sm6250-common: light: Remove libhwbinder/libhidltransport deps
+[33mbf69bf5[m sm6250-common: get back to default from long-standing VM tweaks
+[33md646153[m sm6250-common: Update overlay to hide sRGB toggle
+[33m4372eed[m sm6250-common: Hide sRGB toggle in developer options
+[33md393764[m sm6250-common: Enable UBWC aligned framebuffer
+[33mf68b1c4[m sm6250-common: Enable H/W Composition
+[33m94b6dd9[m sm6250-common: Increase reserved space on product and system partitions
+[33m7479c2b[m sm6250-common: reserve some space for product partition
+[33mb10c3c7[m sm6250-common: Set linker to LLD
+[33m083f010[m sm6250-common: Enable unspecialized app process pool
+[33mb5645db[m sm6250-common: Lower reserved space on system partition
+[33m0191354[m sm6250-common: set stock configstore flags as props
+[33m20aeaa3[m [BLOBS] sm6250-common: do not use prebuilt configstore@1.1
+[33mdfa95eb[m [BLOBS] sm6250-common: remove curtana-specific device features config
+[33ma1ce496[m sm6250-common: Add reboot_fastboot action to power menu
+[33m461be93[m sm6250-common: rootdir: remove modprobes for inline modules
+[33mdfdc5e4[m sm6250-common: define sepolicy for xiaomi battery services
+[33m45daab7[m sm6250-common: add FM
+[33m2594a47[m sm6250-common: update vendor security patch
+[33m7614e3d[m [BLOBS] sm6250-common: add FM blobs
+[33m322dc33[m Revert "sm6250-common: remove xiaomi specific battery services"
+[33m9807c13[m sm6250-common: manifest: remove QTI WiFi entries
+[33m99ed2b4[m sm6250-common: build WiFi packages
+[33mba2e32a[m sm6250-common: import WiFi configs
+[33m767ceea[m sm6250-common: remove prebuilt QTI WiFI blobs
+[33m5d74742[m sm6250-common: overlay: enable DT2W
+[33m997f392[m sm6250-common: manifest: upgrade power to 1.3
+[33mddb4eab[m sm6250-common: build power service from source
+[33m57de657[m sm6250-common: power: add DT2W support FTS and NVT touchscreens
+[33ma587e4e[m sm6250-common: power: Add support for DT2W feature
+[33m40eda54[m sm6250-common: power: add no-op 1.3 interface implementation
+[33maecb94e[m [BLOBS] sm6250-common: remove prebuilt power HAL
+[33m97dd323[m [BLOBS] sm6250-common: remove uncommon thermal engine map
+[33mf4ce900[m sm6250-common: init: cleanup includes
+[33m3b12ba1[m sm6250-common: init: split up functionality into separate static library
+[33m8068c2a[m sm6250-common: rootdir: include device specific rc file
+[33mad54dad[m [BLOBS] sm6250-common: remove thermal engine init file
+[33m756f09f[m sm6250-common: add miatoll to guard
+[33mc24d834[m sm6250-common: add all devices to guard
+[33mb5730f7[m sm6250-common: build WiFi Display dependencies and add framework to boot JARs
+[33m48c1a54[m [BLOBS] sm6250-common: add WFD blobs
+[33m6f531fd[m sm6250-common: reserve more space on system
+[33mebc9e93[m sm6250-common: add misys blobs needed for MiuiCamera
+[33ma0c7e0c[m sm6250-common: init: group dalvik property initialization together
+[33m6fdeeb9[m sm6250-common: overlay: Import correct mainBuiltInDisplayCutout
+[33me5d5f85[m sm6250-common: overlay: adjust ramp rates for 255 max brightness
+[33me562484[m sm6250-common: overlay: use 16dp rounded corner padding
+[33m8dc9578[m sm6250-common: overlay: define automatic brightness overlays
+[33mfbf5932[m sm6250-common: overlay: define intrusive notification led
+[33m7e49500[m sm6250-common: overlay: status bar height and corner radius
+[33m244efb5[m sm6250-common: overlay-lineage: set config_haveNotch overlay to true
+[33m320863f[m sm6250-common: overlay-lineage: define light capabilities
+[33m68259e5[m sm6250-common: set screen density
+[33m836dfff[m sm6250-common: define bootanimation size
+[33mf8e46f5[m sm6250-common: Get rid of megvii dependencies in camera.qcom.so
+[33ma6509e0[m [BLOBS] sm6250-common: remove megface libraries
+[33m07dd93f[m sm6250-common: define defconfig name
+[33m8cdefd2[m Revert "[BLOBS] sm6250-common: remove unused IMS configs"
+[33macdc91e[m sm6250-common: remove xiaomi specific battery services
+[33m471b772[m [BLOBS] sm6250-common: remove prebuilt sepolicy
+[33m7c96cf3[m [BLOBS] sm6250-common: remove unused libraries
+[33md1e9a0c[m [BLOBS] sm6250-common: remove unused services - part 6
+[33md45e81d[m [BLOBS] sm6250-common: remove unused services - part 5
+[33m6b1181d[m [BLOBS] sm6250-common: remove shares libs
+[33m6c49e8d[m [BLOBS] sm6250-common: remove unused services - part 4
+[33mf43846c[m [BLOBS] sm6250-common: remove unused framework file
+[33md3cb16f[m [BLOBS] sm6250-common: remove unused etc files
+[33mc953541[m [BLOBS] sm6250-common: remove unused services - part 3
+[33m5487a32[m [BLOBS] sm6250-common: remove unused services - part 2
+[33mcd25080[m [BLOBS] sm6250-common: remove unused services - part 1
+[33m02fd688[m [BLOBS] sm6250-common: add back Diag.cfg used by libdiag
+[33mf32eba0[m [BLOBS] sm6250-common: remove more test blobs and services
+[33m1427e0b[m [BLOBS] sm6250-common: remove loopback test and its dependencies
+[33m360d162[m [BLOBS] sm6250-common: remove factory app and its dependencies
+[33m30b513d[m [BLOBS] sm6250-common: remove sensors configuration that aren't IDP 443 compatible
+[33m491b437[m [BLOBS] sm6250-common: remove unused diag blobs and configuration
+[33m093505d[m [BLOBS] sm6250-common: remove unused CIT configs
+[33mb919a3e[m [BLOBS] sm6250-common: remove unused IMS configs
+[33m1c75b21[m [BLOBS] sm6250-common: remove prebuilt permission files
+[33m21c27b7[m sm6250-common: copy permission files
+[33m8a17c1a[m [BLOBS] sm6250-common: remove unused qdcm calibration data
+[33mfc0c038[m [BLOBS] sm6250-common: remove NFC blobs
+[33m74969bc[m [BLOBS] sm6250-common: remove QRD ACDBs
+[33m8c73e64[m [BLOBS] sm6250-common: remove unused firmwares
+[33m14b2522[m sm6250-common: remove wlan mac symlink
+[33m60229d3[m [BLOBS] sm6250-common: remove uncommon thermal configs
+[33meba5085[m [BLOBS] sm6250-common: remove uncommon camera blobs
+[33m5990d2d[m sm6250-common: Add debug IMS props to workaround CarrierConfig restrictions
+[33maac7ef6[m sm6250-common: overlay: Configure number of physical SIM slots
+[33mdd0e8ef[m sm6250-common: import ueventd configuration
+[33ma84d906[m [BLOBS] sm6250-common: remove prebuilt ueventd.rc
+[33m17e4422[m sm6250-common: rootdir: remove unused init.qti.ims.sh script
+[33maed7150[m sm6250-common: overlay: import power profile
+[33maac5e70[m sm6250-common: releasetools: Add vbmeta images to the output zip if present
+[33m5ca0162[m sm6250-common: build fastbootd
+[33me558647[m sm6250-common: Add device input configs and keylayouts
+[33m15bdd26[m sm6250-common: enable ODM value additions
+[33m8bf486a[m sm6250-common: bluetooth: Fix undefined PROPERTY_VALUE_MAX
+[33m3b446b4[m sm6250-common: Disable UBWC
+[33m5e14c37[m sm6250-common: enable ION usage
+[33m14509d9[m sm6250-common: Switch to QTI bt stack
+[33m2af9e31[m sm6250-common: Exclude Snap overlays from RRO
+[33m7ade765[m sm6250-common: Exclude lineage-sdk overlays from RRO
+[33m8ed026c[m sm6250-common: Enforce RRO for all resource overlays
+[33mda93987[m sm6250-common: overlay-lineage: Don't use OpenLegacy() for opening camera
+[33m2367ae5[m sm6250-common: overlay-lineage: Enable APIv2 for Snap
+[33med42fb4[m sm6250-common: overlay-lineage: Set proper fingerprint location
+[33m9d9cb61[m Revert "[DNM] sm6250-common: disable building with qcom hardware"
+[33m81d93fb[m sm6250-common: properly include dtb in bootimg
+[33m3b050dc[m sm6250-common: fix audio policy configuration file path
+[33me3d3b46[m [BLOBS] sm6250-common: remove prebuilt libssrec to avoid build errors
+[33mae3ba83[m sm6250-common: build light HAL
+[33m7964f5f[m sm6250-common: light: WHITE_LED -> NOTIFICATION_LED
+[33m7e0d232[m sm6250-common: light: match service name
+[33m3c7ffbc[m sm6250-common: light: simplify alpha scaling logic
+[33m963ec1b[m sm6250-common: light: do not turn on breathing for unlit hardware states
+[33m9cc256c[m sm6250-common: light: avoid resetting state
+[33m46157d8[m sm6250-common: light: avoid uint32_t underflow
+[33mf98970f[m sm6250-common: light: properly scale brightness range
+[33m7a6ac36[m sm6250-common: import light HAL from Xiaomi msm8998-common
+[33mfdb59bd[m [BLOBS] sm6250-common: remove prebuilt light hal
+[33me97d9a6[m [BLOBS] sm6250-common: update camera blobs
+[33mc8c62af[m sm6250-common: build libvolumelistener from source
+[33meb87603[m [BLOBS] sm6250-common: remove prebuilt libvolumelistener
+[33m865a0a6[m sm6250-common: audio: remove raw flag for audio pop
+[33ma44d302[m sm6250-common: audio: Disable ULL mode
+[33m2d3d55d[m sm6250-common: import audio policy configuration
+[33ma6386da[m [BLOBS] sm6250-common: remove prebuilt audio policy configuration
+[33me9365a6[m sm6250-common: add display props
+[33m72ff21d[m sm6250-common: add charging prop
+[33m319da03[m sm6250-common: update security patch
+[33m631e684[m [BLOBS] sm6250-common: remove readily available prebuilt targets
+[33m94d6264[m sm6250-common: rootdir: correct wlan module name
+[33m6bb8716[m sm6250-common: rootdir: refactor usb configuration
+[33m9668da7[m sm6250-common: rootdir: remove unused parts of vendor init scripts
+[33ma270c01[m sm6250-common: rootdir: fix machine module name
+[33mbd3f134[m [DNM] sm6250-common: reserve 100MB on each dynamic partition
+[33m31a7722[m [DNM] sm6250-common: disable building with qcom hardware
+[33m6f175e5[m [DNM] sm6250-common: disable audio HAL extension
+[33mf410003[m [DNM] sm6250-common: permissive selinux
+[33ma7043a4[m sm6250-common: media: remove unsupported profiles
+[33m6288740[m sm6250-common: import media profiles
+[33m1ba07c1[m sm6250-common: rootdir: fix audio module names
+[33m91088f7[m sm6250-common: rootdir: import vendor init scripts
+[33mac2d503[m sm6250-common: symlink logical partitions in recovery
+[33ma1b7eaf[m sm6250-common: add recovery scripts
+[33m5411247[m sm6250-common: copy fstab to ramdisk and vendor
+[33m884bcf7[m sm6250-common: include AVB public keys
+[33m28cb6ac[m sm6250-common: releasetools: Add dtbo image to the output zip if present
+[33m95ce303[m sm6250-common: rootdir: add /boot to fstab
+[33m5e27bd5[m sm6250-common: use dynamic partitions
+[33m547eb50[m sm6250-common: make libplatformconfig a module
+[33m4840af7[m [BLOBS] sm6250-common: add system and product permissions
+[33m8fb554b[m [BLOBS] sm6250-common: remove prebuilt vendor media profiles
+[33m73dbb87[m [BLOBS] sm6250-common: remove prebuilt init scripts
+[33m95df602[m [BLOBS] sm6250-common: remove prebuilt modules
+[33m3fb0022[m [BLOBS] sm6250-common: remove NOTICE zips
+[33ma42a9fc[m [BLOBS] sm6250-common: remove prebuilt Wi-Fi symlinks
+[33m3364ad2[m [BLOBS] sm6250-common: remove fstab
+[33mad7f939[m sm6250-common: add system proprietary files
+[33md78f102[m sm6250-common: add initial proprietary files
+[33m9fa9e15[m sm6250-common: Ship additional textclassifier's smart selection models
+[33me49eaee[m sm6250-common: build telephony packages
+[33m3237509[m sm6250-common: build RCS packages
+[33m22328c7[m sm6250-common: build Snap package
+[33mbbf1892[m sm6250-common: define system properties
+[33mcd3781c[m sm6250-common: define vendor properties
+[33me002473[m sm6250-common: overlay: CarrierConfig: import configuration from stock
+[33m8350b84[m sm6250-common: overlay: Bluetooth: import configuration from stock
+[33m9c57868[m sm6250-common: overlay: Enable IWLAN assisted mode
+[33madc6dc7[m sm6250-common: overlay: use /dev/input for jack changes detection
+[33m0f88523[m sm6250-common: overlay: declare automatic brightness availability
+[33mf7d8997[m sm6250-common: overlay: enable accelerated color transformations
+[33m2e8f6a9[m sm6250-common: overlay: configure bluetooth power usage
+[33m776680c[m sm6250-common: overlay: support unprocessed audio sources
+[33m5ab8e44[m sm6250-common: overlay: declare hotswap capability
+[33me9b808a[m sm6250-common: overlay: disable phone object update on registration state change
+[33me9df099[m sm6250-common: overlay: configure IMS
+[33m7bcdcaf[m sm6250-common: overlay: configure mobile tcp buffers
+[33m3c193c1[m sm6250-common: overlay: decouple interactive mode from display
+[33m07c1c93[m sm6250-common: overlay: add radio attributes
+[33mf8db2c8[m sm6250-common: overlay: add network attributes
+[33mf511856[m sm6250-common: overlay: describe tetherable DHCP ranges
+[33me77120c[m sm6250-common: overlay: describe tetherable interfaces
+[33m337ff0f[m sm6250-common: overlay: set MMS user agent
+[33m54ab548[m sm6250-common: overlay: add link for cell broadcast app
+[33ma5fe439[m sm6250-common: overlay: add wifi configs found on stock
+[33md714a6e[m sm6250-common: overlay: skip restoring network selection
+[33m4fb4f9f[m sm6250-common: overlay: enable software navigation bar
+[33me615170[m sm6250-common: overlay-lineage: Enable call recording
+[33mc31a950[m sm6250-common: overlay-lineage: Enable option for full screen aspect ratio
+[33m7647273[m sm6250-common: include overlays
+[33mc9301eb[m sm6250-common: Build separate system and vendor HIDL libs
+[33m6eabb2c[m sm6250-common: Build dummy android.hidl.[base,manager]@1.0
+[33m9f82ee6[m sm6250-common: slim up filesystem configuration
+[33m0d171a0[m sm6250-common: Add common config.fs AID/fs configuration file
+[33me07fbb9[m sm6250-common: init: override dalvik heap config based on total RAM
+[33m149534d[m sm6250-common: Use 4GB dalvik-heap config
+[33m5103f89[m sm6250-common: Define Soong namespace
+[33mf3796a3[m sm6250-common: Add updatable_apex.mk
+[33md531d04[m sm6250-common: set shipping api level
+[33mf36a101[m sm6250-common: inherit from base device configuration
+[33mca394df[m sm6250-common: add support for curtana
+[33mc8ce429[m sm6250-common: create wlan firmware symlinks
+[33m49d5be9[m sm6250-common: Create RFS symlinks
+[33mb17e97f[m sm6250-common: Generate non-hlos image mount points for A/B builds
+[33m37a32ef[m sm6250-common: add root makefile
+[33mc66d4f6[m sm6250-common: import extract files scripts
+[33mac373c1[m sm6250-common: define vendor ril service usage
+[33md6d664d[m sm6250-common: specify recovery fstab
+[33mf9271b3[m sm6250-common: import fstab from stock
+[33m45f0b20[m sm6250-common: specify recovery flags
+[33m77159a9[m sm6250-common: inherit proprietary blobs
+[33m97aafa1[m sm6250-common: include local sepolicy
+[33m667f722[m sm6250-common: include qcom sepolicy
+[33mdb8ed7d[m sm6250-common: create dummy property files
+[33m453a236[m sm6250-common: Build disabled VBMeta image
+[33med08feb[m sm6250-common: define partition rules
+[33mc21db8f[m sm6250-common: define security patch level
+[33m1bfd914[m sm6250-common: allow duplicate targets
+[33m87a506f[m sm6250-common: build with qcom hardware
+[33m9277c9c[m sm6250-common: Add device compatibility matrix
+[33m8a113b2[m sm6250-common: import stock manifest
+[33mc4e01f6[m sm6250-common: use dexpreopt on linux host and non-eng build
+[33m24af70e[m sm6250-common: enable suspend in off-mode charging
+[33m67caa47[m sm6250-common: enable use of QTI camera device
+[33mda4ac49[m sm6250-common: bluetooth: Push×pop PROPERTY_VALUE_MAX in buildcfg header
+[33m2932db6[m sm6250-common: Fix build of our bluetooth header
+[33m2087946[m sm6250-common: Switch to a map based BT name
+[33m2309491[m sm6250-common: Import BT config header
+[33ma39724c[m sm6250-common: define audio feature rules used by audio policy
+[33mc906100[m sm6250-common: specify rules for audio policy
+[33md69d4c2[m sm6250-common: remove buildvariant cmdline argument
+[33m77baa3f[m sm6250-common: define kernel rules
+[33ma5381b3[m sm6250-common: define no bootloader rule
+[33m8b64e91[m sm6250-common: define board platform rule
+[33mb673c72[m sm6250-common: define architecture rules
+[33mb9f6f98[m sm6250-common: specify common path
+[33mbd8b450[m sm6250-common: initialize tree
