@@ -330,6 +330,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    DeviceAsWebcamOverlayCommon
+
+PRODUCT_PACKAGES += \
     CarrierConfigOverlaySM8350 \
     DialerOverlaySM8350 \
     LineageSDKOverlaySM8350 \
