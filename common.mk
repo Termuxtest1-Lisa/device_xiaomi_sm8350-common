@@ -126,8 +126,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
-    XiaomiDolbyResCommon
+    XiaomiDolby
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
