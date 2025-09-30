@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from taoyao V816.0.23.0.ULIMIXM
+# All unpinned blobs below are extracted from taoyao V816.0.26.0.ULIMIXM
 
 # ADSP
 vendor/bin/adsprpcd
