@@ -138,7 +138,7 @@ function configure_memory_parameters() {
 		echo 0 > /proc/sys/vm/watermark_boost_factor
 	fi
 	
-	#Spawn 1 kswapd threads to reduce CPU usage and improve system smoothness
+	#Spawn kswapd threads which can help in fast reclaiming of pages
 	echo 1 > /proc/sys/vm/kswapd_threads
 }
 
